@@ -11,13 +11,17 @@ import SwiftUI
 struct StarRow: View {
     var count: Int
     
+//    private var starWidth: CGFloat
+//    private var starHeight: CGFloat
+    
     var body: some View {
         HStack(alignment: .center, spacing: 0) {
             ForEach((1...count), id: \.self) { index in
                 
                 Image(systemName: "star.fill")
                     .resizable()
-                    .frame(width: 8, height: 8)
+                    .aspectRatio(1, contentMode: .fit)
+//                    .frame(width: 8, height: 8)
                     .foregroundColor(.red)
             }
         }
@@ -81,6 +85,7 @@ struct StarRatings: View {
             VStack(alignment: .trailing, spacing: 2) {
                 ForEach((1...5).reversed(), id: \.self) { index in
                     StarRow(count: index)
+                    .frame(width: 40)
                 }
             }
             

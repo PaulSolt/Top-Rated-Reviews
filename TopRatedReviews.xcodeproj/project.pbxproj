@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD19B248231DCC1600A898A7 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19B247231DCC1600A898A7 /* Review.swift */; };
 		BDA57152231D478900017643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57151231D478900017643 /* AppDelegate.swift */; };
 		BDA57154231D478900017643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57153231D478900017643 /* SceneDelegate.swift */; };
 		BDA57156231D478900017643 /* StarRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57155231D478900017643 /* StarRatings.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD19B247231DCC1600A898A7 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		BDA5714E231D478900017643 /* TopRatedReviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopRatedReviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA57151231D478900017643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA57153231D478900017643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				BDA57151231D478900017643 /* AppDelegate.swift */,
 				BDA57153231D478900017643 /* SceneDelegate.swift */,
 				BDA57155231D478900017643 /* StarRatings.swift */,
+				BD19B247231DCC1600A898A7 /* Review.swift */,
 				BDA57157231D478B00017643 /* Assets.xcassets */,
 				BDA5715C231D478B00017643 /* LaunchScreen.storyboard */,
 				BDA5715F231D478B00017643 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA57152231D478900017643 /* AppDelegate.swift in Sources */,
+				BD19B248231DCC1600A898A7 /* Review.swift in Sources */,
 				BDA57154231D478900017643 /* SceneDelegate.swift in Sources */,
 				BDA57156231D478900017643 /* StarRatings.swift in Sources */,
 			);
