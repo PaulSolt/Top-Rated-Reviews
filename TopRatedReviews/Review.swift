@@ -106,19 +106,19 @@ struct ReviewRow: View {
                 .font(.headline)
             
             Text(review.body)
-                .lineLimit(Int.max) // 10) //Int.max)
                 .font(.body)
+                .lineLimit(Int.max) // 10) //Int.max)
         
     
             
             
         }
         .padding()
-                .background(
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .foregroundColor(Color(white: 0.92))
-                )
-                .padding()
+//                .background(
+//                    RoundedRectangle(cornerRadius: 20, style: .continuous)
+//                        .foregroundColor(Color(white: 0.92))
+//                )
+//                .padding()
         
     }
 }
