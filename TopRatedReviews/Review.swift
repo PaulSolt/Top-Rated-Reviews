@@ -18,36 +18,83 @@ struct Review: Identifiable, Codable {
 
 let reviewData = [Review(rating: 5, name: "Jonny Appleseed", title: "Used for everything", body: "Great app, it really helped me get a lot more done in way less time. I don't know of a better app if you need quick results. Download it and you'll love it!!! and I can go on about this one"),
                   Review(rating: 4, name: "Sue", title: "Longer Review", body: "Great app, it really helped me get a lot more done in way less time. I don't know of a better app if you need quick results. Download it and you'll love it!!! and I can go on about this one. Great app, it really helped me get a lot more done in way less time. \nI don't know of a better app if you need quick results. Download it and you'll love it!!! and I can go on about this one"),
-                  Review(rating: 3, name: "Jonny Appleseed is Awesome", title: "Is there more?", body: "It doesn't crash, but I don't get it"),
+                  Review(rating: 3, name: "I'm Awesome", title: "Is there more?", body: "It doesn't crash, but I don't get it"),
                   Review(rating: 2, name: "Max", title: "Wanted to like it", body: "Will review it again later"),
-
+                  
                   Review(rating: 1, name: "Jonny", title: "Not great...", body: "Can't figure this one out. Avoid..."),
-
+                  
 ]
 
-struct StarRating: View {
+
+struct Label : UIViewRepresentable {
+    typealias UIViewType = UILabel
     
+//    var label: LabelType
+    
+    @Binding var text: String
+//    @State var text: String
+    
+    func makeUIView(context: UIViewRepresentableContext<Label>) -> Label.UIViewType {
+        let label = UILabel()
+        label.font = UIFont.preferredFont(forTextStyle: .body)
+        label.numberOfLines = 0
+
+        label.setContentHuggingPriority(.defaultHigh, for: .vertical)
+        label.setContentCompressionResistancePriority(.defaultHigh, for: .horizontal)
+        
+        return label
+    }
+    
+    func updateUIView(_ label: Label.UIViewType, context: UIViewRepresentableContext<Label>) {
+        
+        label.text = text
+//        label.clipsToBounds = true
+//        label.numberOfLines = 3
+//            label.sizeToFit()
+//        label.setNeedsLayout()
+//        label.setNeedsDisplay()
+//        label.setNeedsUpdateConstraints()
+//        label.translatesAutoresizingMaskIntoConstraints = false
+//        label.clipsToBounds = true
+//        label.backgroundColor = .blue
+    }
+}
+
+
+struct StarRating: View {
     var rating: Int
     
     var body: some View {
         HStack {
             ForEach(1...5, id: \.self) { index -> Image in
                 Image(systemName: (index <= self.rating) ? "star.fill" : "star")
-                //                    .foregroundColor(.red)
-                //                if index < self.rating {
-                //                    Image(systemName: "star.fill")
-                //                        .foregroundColor(.red)
-                //                } else {
-                //                    Image(systemName: "star")
-                //                        .foregroundColor(.red)
-                //                }
+                
+                // OR
+//                if index < self.rating {
+//                    return Image(systemName: "star.fill")
+//                } else {
+//                    return Image(systemName: "star")
+//                    //     .foregroundColor(.red) // NOTE: You can't set foreground in here, must be at ForEach
+//                }
             }.foregroundColor(.red)
-        } // .foregroundColor(.red)
+        }
     }
 }
 
 struct ReviewRow: View {
-    var review: Review
+    @State var review: Review
+
+/*    var body: some View {
+//        GeometryReader { geometry in
+//            Label(text: self.$review.body)
+            Text(self.review.body)
+                .lineLimit(Int.max)
+//                .frame(width: geometry.size.width - 20)
+            
+            
+//        }
+
+    }*/
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -57,20 +104,21 @@ struct ReviewRow: View {
                 .font(.caption)
             Text(review.title)
                 .font(.headline)
+            
             Text(review.body)
+                .lineLimit(Int.max) // 10) //Int.max)
                 .font(.body)
-            //            .lineLimit(nil)
-            //                .font(.body)
+        
+    
             
             
         }
-        .lineLimit(12)
         .padding()
-        //        .background(
-        //            RoundedRectangle(cornerRadius: 20, style: .continuous)
-        //                .foregroundColor(Color(white: 0.92))
-        //        )
-        //        .padding()
+                .background(
+                    RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .foregroundColor(Color(white: 0.92))
+                )
+                .padding()
         
     }
 }
