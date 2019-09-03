@@ -99,18 +99,15 @@ struct ReviewRow: View {
     var body: some View {
         VStack(alignment: .leading) {
             
-            StarRating(rating: review.rating)
-            Text(review.name)
+            StarRating(rating: self.review.rating)
+            Text(self.review.name)
                 .font(.caption)
-            Text(review.title)
+            Text(self.review.title)
                 .font(.headline)
             
-            Text(review.body)
+            Text(self.review.body)
                 .font(.body)
-                .lineLimit(Int.max) // 10) //Int.max)
-        
-    
-            
+                .lineLimit(Int.max) // 10)
             
         }
         .padding()
@@ -119,7 +116,7 @@ struct ReviewRow: View {
 //                        .foregroundColor(Color(white: 0.92))
 //                )
 //                .padding()
-        
+    
     }
 }
 
