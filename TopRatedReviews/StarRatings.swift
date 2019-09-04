@@ -22,8 +22,8 @@ struct StarRow: View {
                 
                 Image(systemName: "star.fill")
                     .resizable()          // Can't get them to align with resizable/trailing, they center...
-                    .aspectRatio(1, contentMode: .fit)
-//                    .frame(width: 8, height: 8)
+//                    .aspectRatio(1, contentMode: .fit)
+                    .frame(width: 8, height: 8)
                     .foregroundColor(.red)
             }
         }
@@ -88,7 +88,9 @@ struct StarRatings: View {
                 ForEach((1...5).reversed(), id: \.self) { index in
                     StarRow(count: index)
 //
-//                    .frame(width: 40, height: 8)
+                    
+//                    .frame(width: 40, height: 8) // caused it to center the content in the frame
+//                    .aspectRatio(contentMode: <#T##ContentMode#>)
                 }
             }
             

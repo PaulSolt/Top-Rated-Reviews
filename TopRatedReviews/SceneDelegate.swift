@@ -21,8 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
 //        let contentView = Review()
-//        let contentView = StarRatings()
-        let contentView = ReviewList()
+        let contentView = StarRatings()
+//        let contentView = ReviewList()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
