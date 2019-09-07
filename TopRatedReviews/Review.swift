@@ -38,25 +38,11 @@ struct Label : UIViewRepresentable {
         let label = UILabel()
         label.font = UIFont.preferredFont(forTextStyle: .body)
         label.numberOfLines = 0
-
-        label.setContentHuggingPriority(.defaultHigh, for: .vertical)
-        label.setContentCompressionResistancePriority(.defaultHigh, for: .horizontal)
-        
         return label
     }
     
     func updateUIView(_ label: Label.UIViewType, context: UIViewRepresentableContext<Label>) {
-        
         label.text = text
-//        label.clipsToBounds = true
-//        label.numberOfLines = 3
-//            label.sizeToFit()
-//        label.setNeedsLayout()
-//        label.setNeedsDisplay()
-//        label.setNeedsUpdateConstraints()
-//        label.translatesAutoresizingMaskIntoConstraints = false
-//        label.clipsToBounds = true
-//        label.backgroundColor = .blue
     }
 }
 
