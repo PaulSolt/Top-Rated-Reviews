@@ -30,8 +30,9 @@ struct StarRow: View {
     }
 }
 
-struct StarRatings: View {
+struct StarRatingsView: View {
     
+    // TODO: Extract model
     var stars: [Int] = [100, 50, 3, 1, 3] {
         mutating didSet {
             calculateLengths()
@@ -45,6 +46,9 @@ struct StarRatings: View {
     init() {
         calculateLengths()
     }
+    
+    private var totalStars = 0
+
     
     private mutating func calculateLengths() {
         totalStars = stars.reduce(0, +)
@@ -63,7 +67,6 @@ struct StarRatings: View {
         averageRating /= Double(totalStars)
     }
     
-    private var totalStars = 0
     
     private var ratingFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
@@ -72,13 +75,17 @@ struct StarRatings: View {
         return formatter
     }()
     
+    var averageRatingFormatted: String {
+        return ratingFormatter.string(from: NSNumber(value: averageRating)) ?? "0.0"
+    }
+    
     private var lengths: [CGFloat] = []
     
     var body: some View {
         
         HStack(alignment: .top) {
             VStack(alignment: .leading) {
-                Text(ratingFormatter.string(from: NSNumber(value: averageRating)) ?? "INVALID") // TODO: should we do something else for nil values?
+                Text(averageRatingFormatted)
                     .font(.largeTitle)
                     .foregroundColor(Color(white: 0.8))
                 Text("out of 5")
@@ -87,10 +94,6 @@ struct StarRatings: View {
             VStack(alignment: .trailing, spacing: 2) {
                 ForEach((1...5).reversed(), id: \.self) { index in
                     StarRow(count: index)
-//
-                    
-//                    .frame(width: 40, height: 8) // caused it to center the content in the frame
-//                    .aspectRatio(contentMode: <#T##ContentMode#>)
                 }
             }
             
@@ -98,7 +101,6 @@ struct StarRatings: View {
                 VStack(alignment: .leading, spacing: 2) {
                     ForEach((0..<5), id: \.self) { index in
                         HStack {
-                            //                        Text("\(self.stars[index])")
                             ZStack(alignment: .leading) {
                                 Rectangle()
                                     .frame(width: CGFloat(100), height: self.size.height)
@@ -119,16 +121,14 @@ struct StarRatings: View {
             RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .padding(-20)
                 .foregroundColor(Color(white: 0.2)) // red: 0.3, green: 0.3, blue: 0.3)))
-            
         )
-        
     }
 }
 
 struct StarRatings_Previews: PreviewProvider {
     static var previews: some View {
         
-        StarRatings() // stars: [100, 34, 3, 4, 2])
+        StarRatingsView() // stars: [100, 34, 3, 4, 2])
         //        StarRatings(
         //        StarRatings(stars: [100, 34, 3, 3, 5])
         //        .environmentObject([])
