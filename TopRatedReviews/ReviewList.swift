@@ -9,17 +9,11 @@
 import SwiftUI
 
 struct ReviewList: View {
-//    var reviews: [Review] = []  // Prototype
-    @EnvironmentObject var reviewStore: AppReviewStore
+    var reviews: [Review] = []  // Prototype
     
     var body: some View {
         NavigationView {
-            
-            VStack {
-                List(reviewStore.reviews) { review in
-                    ReviewRow(review: review)
-                }
-            }.navigationBarTitle(Text("Reviews"))
+            Text("HELLO TRY SWIFT")
         }.onAppear {
             self.fetch()
             
@@ -29,16 +23,12 @@ struct ReviewList: View {
     }
     
     private func fetch() {
-        reviewStore.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
+//        reviewStore.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
     }
 }
 
 struct ReviewList_Previews: PreviewProvider {
     static var previews: some View {
-//        ReviewList(reviews: appReviewData) // prototype
         ReviewList()
-            .environmentObject(
-                AppReviewStore(service: AppReviewService()
-            ))
     }
 }
