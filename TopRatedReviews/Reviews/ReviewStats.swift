@@ -82,4 +82,39 @@ struct ReviewStats: CustomStringConvertible {
         return output
     }
     
+    
+    // TODO: Move into AppVersion class
+
+    func sortedVersions() -> [String] {
+        var versions = appVersions.map { $0.version }
+        versions.removeAll() { $0 == AppVersion.allVersions }
+
+        versions.sort { (v1: String, v2: String) -> Bool in
+            v1.rawVersion.isVersion(lessThanOrEqualTo: v2.rawVersion)
+        }
+        return versions
+    }
+
+    /// Sorts and returns latest version
+    func currentVersion() -> String {
+        let versions = sortedVersions()
+        return versions.last ?? "" // FIXME: return optional?
+    }
+
+    /// Used to set the currentVersion on the review data, so that the UI can show a flag if
+    /// review is current or out of date (We don't have a timestamp in this API)
+    /// TODO: Need to fix the issue with Reviews in versions not getting currentVersion set (does this work?)
+    mutating func updateCurrentVersion(reviews: inout [Review], currentVersion: String) {
+        for i in 0 ..< reviews.count {
+            reviews[i].currentAppVersion = currentVersion
+        }
+
+        updateStats(reviews: reviews)
+    }
+
+    func sortedAppVersions() -> [AppVersion] {
+        return appVersions.sorted { (a1, a2) -> Bool in
+            a1.version.rawVersion.isVersion(lessThanOrEqualTo: a2.version.rawVersion)
+        }
+    }
 }

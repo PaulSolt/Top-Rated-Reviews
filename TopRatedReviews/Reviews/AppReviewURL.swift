@@ -22,8 +22,8 @@ struct AppReviewURL: Equatable {
     let page: Int
     var ordering: ReviewOrdering
     
+    // constants
     static let firstPage = 1
-    static let lastPage = 10
     
     /// IMPORTANT: Starting page is 1, max pages is 10 with CustomerReviews API
     /// NOTE: I'm not sure if there's any other review sort options that work, or if there's another public/open API with more data

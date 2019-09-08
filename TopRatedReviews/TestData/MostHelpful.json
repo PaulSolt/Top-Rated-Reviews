@@ -1,0 +1,2418 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id11703416"
+          },
+          "name": {
+            "label": "seancoady"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.6.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "2332470893"
+        },
+        "title": {
+          "label": "Simple, extremely well-curated, outstanding content"
+        },
+        "content": {
+          "label": "This is the app I spend the most time with, hands down. The content is top-notch: succinct, trustworthy, professional. It’s such a breath of fresh air compared to the sensationalism and shoddy reporting we’re exposed to on social media. I spend 1/2 to an hour every night reading through the Top Stories tab, then finish up with their one-minute crossword.\n\nAs for the app itself, I don’t understand all the 1-Star reviews; I’ve had zero problems with it, and just can’t fathom how one could rate an app ONE star because the app has ads. It’s a newspaper folks, they have to support themselves somehow right? I would actually rate this app higher if I could just based on the fact that their ads are relatively tasteful and not CPU or bandwidth-hogging, or full-screen takeovers. I’ve really enjoyed some of the multimedia stories like the long-scrolling, annotated video graphic of Greenland’s melting ice park. Really, really love this app",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "136"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "232"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id26647777"
+          },
+          "name": {
+            "label": "machineinthestudio"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.3.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4591943647"
+        },
+        "title": {
+          "label": "More unreadable with every update!"
+        },
+        "content": {
+          "label": "As NYT subscriber and early adopter of the NYT app, I’ve used many iterations of this app and the 2019 versions are NOT improvements. I’m giving the app two stars for offline access and the recent, excellent NYT Mag profile profile of Bill De Blasio and why the city hates him. Now onto the recent, bad updates! First, the mobile ad format functions like a pop-up that you can’t disable: the screen blacks out to load the ad before allowing you to exit the page. This format appears many times during a single session, across multiple news sections, and every time that you open the app. (Also this format seems to be used solely for “To Kill a Mockingbird” on Broadway?) This makes reading the app very inconvenient and annoying! Second, one of the latest updates eliminated the very convenient feature that allowed users to swipe between different news sections. For example, to move between three sections (like from NY to US to World) only required two swipes; to do the same now requires four taps (Back > Menu Page to choose section; repeat). In other words, it’s more convenient to enter a subway station with an MTA card than to move between sections in the NYT app. TL;DR the 2019 app updates suggest the NYT iOS team has been taking cues from editorial because reading the news is less accessible and more annoying than ever.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "2"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "4"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id321389957"
+          },
+          "name": {
+            "label": "Gaylagal2"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.5.2"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "2303054427"
+        },
+        "title": {
+          "label": "The ads aren't so bad, but the...."
+        },
+        "content": {
+          "label": "I've been a NYT subscriber for over 20 years and I love it! It always made my day seeing the NYT in my driveway, especially on Sunday. After moving to the country I had to start using the digital edition and it's really, really great. \nThis last update and new app could use a few tweaks. I do enjoy the layout and it's esthetically very enjoyable. And the ads, no big deal! You have ads in all print newspapers and magazines that you pay for, so what's the issue? They're not interfering with the stories so I'm fine with it. What I do not like is the fact you can't add or move more of your favorite sections to the top column like before. You can only move like 5 or 6 now. Really wish you'd correct that please. \nBut other than that I still really enjoy it and will continue to subscribe. \nThank you!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "7"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "10"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id101112060"
+          },
+          "name": {
+            "label": "Applacious"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.8.1"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "3370354953"
+        },
+        "title": {
+          "label": "Millennial going for print"
+        },
+        "content": {
+          "label": "I have been a New York Times subscriber for digital and weekend print edition for almost 12 years now. I have always liked their news coverage,opinions, articles about everyday stuff that I could believe could be so interesting, Mini crossword, and almost everything they publish. But in the past few years the online version has become addictive and the way they seem to do it is by taping in the outrageous feeling and then suggests more articles like it. It’s very draining to feeling that way day in and day out. I can’t believe I come back to get more of it. I feel some articles have become to click-baity. That should not be the way to customer engagement and keeping them there longer.I don’t like that my attention is being used this way by a product that I pay for.\n\nWeekend with the print edition is so much better no way going down a rabbit hole and can stay away from the comments. I feel I’m in more control of the time I spent reading print. But I guess print won’t last beyond a few more years. Sigh!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "12"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "28"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id39794777"
+          },
+          "name": {
+            "label": "Buddy Bolden"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.5.2"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "2253772756"
+        },
+        "title": {
+          "label": "App Keeps Getting Worse"
+        },
+        "content": {
+          "label": "I really wish those responsible for this app would focus on delivering basic functionality for those of us who wish to read the news, rather than devoting so much energy to videos, virtual reality, and the like. I pay hundreds of dollars a year for my print subscription to the Times, and generally only resort to the app on days when it isn’t delivered due to a “production delay.” On those days, it drives me nuts that after recent updates, the last line of text before each ad is always partially obscured by the ad. It’s as if the Times has no respect whatsoever for its own reporters and the content they produce, let alone the readers who support them.\n\nAlso, I have several iOS devices, including an older iPod Touch that runs iOS 9.3.5. It's very aggravating that this app basically doesn't work at all on that device, since the description claims it's compatible with 9.0 and above.\n\nThe New York Times remains the indispensable source for Americans who hope to be informed about what is going on in the United States and the world. It is a terrible shame that this app doesn't do a better job of bringing the paper of record into the digital realm.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "52"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "104"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id327317183"
+          },
+          "name": {
+            "label": "kriserts2"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "8.2.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "3907922606"
+        },
+        "title": {
+          "label": "More ads than text"
+        },
+        "content": {
+          "label": "How many ads can you jam onto a page? Sooooo many, apparently. The same ad, over and over and over. Guys, if I don’t engage the first time, I’m not engaging the 25th time, either. Banner ads aren’t much more than blocks of color the eye skips over—take it from me, I’m in advertising, they don’t work—but MAN those blocks get annoying when they’re stacked right after each paragraph of text. Today I read the Times through my browser just so I could use Reader View. You want to push everyone in that direction? So no one ever sees any ads at all? Maybe just try fewer ads so resorting to Reader View doesn’t become a trend. \n\nAnother thing—the blocks of links to other stories, BEFORE the end of the story I’m reading. So many times I think, wow, weird end to this article, then I realize it’s not the end, there’s another paragraph or two after links to 50 other articles. Super annoying. You don’t want people to finish the current article? You think my attention is that short?\n\nYou know how bad you have to get for me to interrupt my morning, come to the App Store, and write this review? Seriously bad. I expect more of The NY Times.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "3"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "5"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id26347771"
+          },
+          "name": {
+            "label": "News257"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "8.4.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "4012381936"
+        },
+        "title": {
+          "label": "NYT can do better than this"
+        },
+        "content": {
+          "label": "I’m on a fast WiFi connection and an iPhone X with the latest OS. When I open the NYT app it takes 3-5 seconds to open. Then after another 3-5 seconds the top story reloads to a different story. I end up having to wait up to ten seconds to even begin reading, and after a jarring experience.\n\nI really love NYT and want to support it, but the iOS app is sub-par, especially when compared to the Washington Post app. I read both daily, but find myself always reading the WP first because the app experience and news layout is so much better. The NYT should be able to do at least as well, but the app is chronically a laggard. I’m boggled that an organization as large, esteemed and technically savvy as the NYT cant get this right and actually lead all the others. I actually worry about what it implies for the organization’s success, because I want it to succeed. If I ever have to reduce my subscriptions to only one major news organization, at this point it would be the WP. It would have been the NYT two years ago.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id42774201"
+          },
+          "name": {
+            "label": "californiadreamin' 2010"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.5.2"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "2290526602"
+        },
+        "title": {
+          "label": "Ads for paid subscriptions????"
+        },
+        "content": {
+          "label": "I quite understand the need to support NYT journalism with advertising on the paper version (which itself involves costs) and on the unpaid version of the news app/website. However, to bloat every single article viewed through a digital subscription with multiple advertisements is a true disservice to loyal subscribers. It is all the more disturbing because under previous versions the platform was ad-free and more complete (i.e. archive access?). Thus NYT digital subscribers now pay exactly the same amount each month for a service that has considerably worsened over time. The majority of other news apps do not include advertising in the “premium”/ paid subscription versions of their applications.\nI have been a NYT reader for many years, and I am happy to contribute monetarily to the important journalistic work this paper does. However, there must be a better way, that is less offensive to the paper’s subscribers!\nPlease return to the previous ad-free approach for digital subscriptions.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "31"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "45"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id14076489"
+          },
+          "name": {
+            "label": "Dfsimon"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "8.0.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "3817882439"
+        },
+        "title": {
+          "label": "A Huge Step Backwards No longer"
+        },
+        "content": {
+          "label": "It took the Times a while to fix all the problems with the new app, but now it is excellent. They have remedied all the issues I identified in my initial review. Thanks for listening. The app now mirrors the excellent layout used in the web page version. \n—-\nThe Times thinks this is an improvement? They would be sadly mistaken. I subscribe to the Times to read journalism. The new app blows up photos so that less content appears on the main page. On the old app, I can scroll through the entire paper and pick out the most interesting articles by section, just as if I were reading the physical paper. Now just a fraction are on the main page and they are completely disorganized. Please don't phase out the old app. The new one reminds me of New Coke.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id15633879"
+          },
+          "name": {
+            "label": "Chuck 77"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.2.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "3006613576"
+        },
+        "title": {
+          "label": "My moneys worth and much more"
+        },
+        "content": {
+          "label": "The latest version is better than ever, and the Times is better than ever. An absolute pleasure!\nI put a high value on accurate, well researched, beautifully written journalism, it's a dying breed. Almost extinct!\n\nTo me, the Times in any form stands almost alone on every count. So I decided to look at my subscription as an investment, because without the times I would be a lot poorer. I don't just mean intellectually poorer. I mean literally dollars and cents poorer. Ignorance can cost you. Knowledge really can make you richer, at least that’s been my experience. losing one of the last bastions of good, honest reporting is something I don't think we can afford.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id187346286"
+          },
+          "name": {
+            "label": "iJeydon"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4730585524"
+        },
+        "title": {
+          "label": "Buggy Ads, Inappropriate Ads"
+        },
+        "content": {
+          "label": "The content itself, including images and video reporting all loads quickly but the ads load slowly, or sometimes not at all. Pre-roll ads on video reporting are particularly troublesome. I have to force close the app to get them to load, and the video won’t play until I watch the ad. Then there’s the ads in the middle of text articles, which sometimes flicker and move up and down the page, moving the text with it over and over making it impossible to read the actual piece.\n\nThen there’s the problem with inappropriate ads. The ads are provided by google apparently, so I presume there are no humans at the wheel deciding whether it’s a good idea to put lingerie on my screen while I’m trying to read the morning news in public.\n\nI don’t know how much my digital subscription is being subsidized by these awful buggy ads, but I’d be happy to pay a higher cost if it meant getting rid of all of this so I can actually see the content I’m paying for.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id39132890"
+          },
+          "name": {
+            "label": "rantee"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4625604609"
+        },
+        "title": {
+          "label": "Great app ruined by too many inline ads"
+        },
+        "content": {
+          "label": "I use this app every day, have been a longtime print and online reader, and find the app experience continuously degraded by ads. It usually fetches content quickly (on a good connection) though loading the app can be slow (scrolling is blocked, likely waiting on ad networks). Offline reading of designated sections is great. Any time the phone is negotiating a weak signal (eg when connectivity goes in and out on the subway), things freeze up. \n\nMost important and the reason for my low rating is that there’s an ad every few paragraphs! It makes for a terrible reading experience. Hopefully they’ll take the cue of other news orgs and offer an ad-free subscription for a higher price, I’d happily pay up. Also, full screen ads that unexpectedly take over while you’re reading are beyond obnoxious. News orgs are in a tough spot these days, but to the NYT - please don’t alienate subscribers with an ads-first mobile UX.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id17756618"
+          },
+          "name": {
+            "label": "Onthewall999"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "8.0.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "3786269542"
+        },
+        "title": {
+          "label": "Made the mistake of downloading this version"
+        },
+        "content": {
+          "label": "Confusing display, over-reliance on photos, bad type size ratio between articles and comments, crashes. I'll try to retrieve the old version stored on my PC. NYTimes, the developers are not moving in a good direction.\n\nUpdate September 10: I was able to obtain the earlier iPad version via the restore function on iTunes. What a relief to again see the paper displayed for grownups!\n\nBut I despair thinking that the Times will at some point discontinue the legacy version. Please, Times staff, if you read these things, *seriously* examine the awful reviews your universal app is getting and admit you made an error. Your loyal readers will respect you the more for it.\n\nUpdate November 9, 2018: The earlier iPad version no longer functions. I’m stuck with this version. Even more than the bad layout, I hate the sprinkling of multiple ads every few paragraphs. It shows contempt for the reader. I would never buy anything shoved at me this way. I don’t know why advertisers in the “paper of record” haven’t figured this out.\n\nUpdate February 18, 2019: I’ve had it with this app. \n\nThe designer of this app is to design what Trump is democracy. The bedazzled ads every few paragraphs and awful layout offend me.\n\nI’ll go back to the non-supported app version. If/when that stops functioning altogether I’ll either read the web version or give up and subscribe to The Washington Post.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id12430784"
+          },
+          "name": {
+            "label": "Updateh8tr"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.6.7"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "2533219790"
+        },
+        "title": {
+          "label": "Slow decline to adware"
+        },
+        "content": {
+          "label": "Several versions back this application was exactly what was needed for a paying subscriber:  the best content, good layout, no clutter, no ads. With the last few renditions, the app has become more and more ad focused.  First, there were picture ads placed on the side of the articles & you could kind of ignore them.  With this version, they are placed square\nin the center of the text column, with no way to ignore them as you must scroll down through them to continue reading the article.  To say the least, this break in the flow of reading is terrifically annoying!   NY Times - I will happily pay you extra $$ for a non-ad version of this app!!  This is the fifth or sixth review of this app I've written over the last several years, and sadly each one has been more negative than the last. - Update - the Sports section of the app now no longer shows sections of sports, say the MLB scores for all teams, as an example.  Terrifically annoying!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "9"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "9"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id201228373"
+          },
+          "name": {
+            "label": "2man73"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.5.2"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "2211713944"
+        },
+        "title": {
+          "label": "Fairly decent app"
+        },
+        "content": {
+          "label": "The app is ok as far as newspaper apps go. News are easy to find and read. However it suffers from the same shortcomings as other such apps do: crashes are still too frequent, at least once every two or three days, and there are too many ads. I understand that they are needed to finance the newspaper, but having two, three, four of the same ad in one article destroys the flow of reading and doesn’t make me want to buy that razor or pair of shoes or whatever it is any more than if it was just one ad.\nIt has improved, but I feel it could still use less cellular data, especially if I download the paper in the morning via WiFi. At the end of the day it has still used an additional 30 megs or so. A setting to reduce image quality would be good. Additionally compressing the text might help.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "29"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "53"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id34784872"
+          },
+          "name": {
+            "label": "j%nml"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.3.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4547324055"
+        },
+        "title": {
+          "label": "Too many annoying, repetitive ads!"
+        },
+        "content": {
+          "label": "This is a very good app from the best news media source around - BUT, the ads drive me crazy. I’m on board with other reviewers who decry repetitions of the same ad after almost every paragraph on a page. I know print media is in trouble and I don’t begrudge the NYT offsetting print declines with digital ad revenue when they can, but come on - a subscription isn’t inexpensive and so many repetitions of in-your-face ads on top of that are just too much. \n\nI’m happy to keep subscribing and I would like to use the app, but I rarely do. Instead, I read the content through a browser with a good ad-blocker, so now the ads aren’t getting seen at all. Tone them down and I’ll be happy to use the app, and advertisers will get more of my eyeball time as well.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id180286015"
+          },
+          "name": {
+            "label": "888K888"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4702726249"
+        },
+        "title": {
+          "label": "Excellent NYT content; Sections/Search area need improvement"
+        },
+        "content": {
+          "label": "Love having NYT journalism available in my mobile device with my weekend print edition subscription.  Please improve Sections area by filling in gaps (For example, Smarter Living and Wirecutter are both missing right now). Please also optimize the search function.  At the very least it needs an option for “sort order,” if not actual filters or advanced search. (Currently results come out in totally random order, neither by date nor relevance, and this is on an IPad Air running current iOS 12.4.). The app’s search function is practically useless. (By contrast, a Google search using the phrase New York Times and a keyword from the article immediately brings up the most recent and relevant article as the top result.)",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id327734921"
+          },
+          "name": {
+            "label": "Tech.13"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.3.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4559282117"
+        },
+        "title": {
+          "label": "Ads Galore, Wasted Space"
+        },
+        "content": {
+          "label": "To be fair I have a 12.9 iPad and there is only so much text they can stuff on a screen before it gets overwhelming. However, the larger screen makes the ads even more apparent than my large LG V40 and even in portrait mode there are huge swaths of white space on either side of the article. I will see two to three ads stretch the full screen (way too many), scroll down and see two more. The article takes up half that horizontal space. Washington Post has a MUCH better app but I can’t really afford to pay for both. Disappointed as I was excited to see what NYT did with all that space when I got my iPad. I also don’t want to let this subscription go but I will if NYT keeps pushing half baked apps with so many ads in article.\n\n(Edit) I was flipping through the Apple News app. Not only does Apple News have NYT articles outside the paywall - there are no ads!! If Apple can do it, surely you can....",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "2"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "2"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id105717088"
+          },
+          "name": {
+            "label": "La Terramotta"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.2.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4497381177"
+        },
+        "title": {
+          "label": "Still not even close to what it should be"
+        },
+        "content": {
+          "label": "Over the last month or more the entire app keeps freezing- every time you try and update a section or click on, or save an article. I have the newest iPhone, and the app used to work seamlessly. Now sometimes it takes two tries to open correctly. Then it crashes. The updating is erratic- sometimes the dates are correct as to when a section was last updated or has been updated, and sometimes not. Also, I understand the need for ad revenue, BUT the obtrusive and clumsy ad mechanisms are unacceptable. It is unbelievably annoying to be continually interrupted by an ever more complicatedly designed ad struggling to load while reading a story. I'm a life- long reader and paid subscriber- and I'm losing my patience. I never take time to write reviews. How difficult can fixing this app be?! Please pay attention.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id32403487"
+          },
+          "name": {
+            "label": "JC Stephen"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.0.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4388699484"
+        },
+        "title": {
+          "label": "Horrible app and reading experience"
+        },
+        "content": {
+          "label": "I have read (and subscribed to) the New York Times for decades. Simply put, this app and the overall reading experience is horrible. Despite being very expensive (I pay less for 1 year of The Guardian, an equally quality source of journalism, than I pay for one month of the NYtimes) the NYTimes inundates you with repetitive ads that distract from the reading experience and dilutes the content. Basic navigational techniques such as swiping between sections either don’t work or were removed from the feature set. And much of the writing and article titles pander to click bait memes and techniques. Its a shame because the NYTimes has made great strides in embracing and learning digital and data driven journalism but they have left quality and the reader experience to the wayside. \n\na very simple first fix: stop showing ads to paying subscribers. I pay for quality journalism, not to see sock adverts and ad bloat.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id203371728"
+          },
+          "name": {
+            "label": "BrooklynDad"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.6.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "3243998004"
+        },
+        "title": {
+          "label": "Black Opium is Glitching the App"
+        },
+        "content": {
+          "label": "While scrolling through/reading a news article, two Black Opium ads are visible partially and then the screens stop scrolling forcing me to quit and restart. There is more ad content the news content in this app - it’s getting ridiculous! I would seriously consider paying more for no ads. I do not understand the reasoning behind presenting multiple ads in one article if I am not interested to click once why would I want to click the second time I saw the ad.  In fact advertisers should realize that method of presentation alienates the target audience and should not be opposed to this method of advertising. Honestly I think NYT is scamming advertisers with a number of impressions billing rate. I will be posting to Black Opium (Kering) and their advertising agency BETC about the annoying nature of these ads and I encourage all who agree to also do the same.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "4"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "5"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id420162625"
+          },
+          "name": {
+            "label": "RWVA77"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.8.3"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "2753541971"
+        },
+        "title": {
+          "label": "Time to update your website?"
+        },
+        "content": {
+          "label": "1.  I have yet to get through the entire paper with all of the non-news add ons and frequent requirements that take you back to the website.  It gets really frustrating when, regardless of what you are trying to call up and read, you keep getting an article that you have already read!\n2,  Suggestions:\n- have two separate web sites, one for today’s paper and one for breaking news.\n-  in today’s paper, stop adding the “do you want to see more”.  This just adds more interactions with the web site and slows everything down.  Show all the articles at once without the need to revisit the website.  This is what has kept me from getting through the entire paper, as the website seems to get overloaded with revisit requests.\n-  It could really simplify reading the digital version if you just added a Done function that would automatically close what you are reading and take you to the next article.\n3.  I hope someone who can do something to improve the electronic version of your paper reads this.  I like your reporting but am rapidly disliking the e version of the paper.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id35894456"
+          },
+          "name": {
+            "label": "Pigwidgin"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "8.6.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4167675429"
+        },
+        "title": {
+          "label": "Fed up with this buggy and slow app"
+        },
+        "content": {
+          "label": "I am a long time subscriber of the New York Times and I have never felt compelled to rate an app until now. If the Times doesn’t fix this app I am going to drop my subscription. It hangs constantly when scrolling, there are tons of ads, and it crashes off and on. The overall performance is abysmal. And the automatically playing video ads drive me nuts and there is no preference setting to turn them off. I have no other issues with the rest of the apps on my iPhone. Reading the latest reviews, I see I’m not the only annoyed customer.  There are also accessibility issues that I have complained directly to the Times about and yet they are never fixed. This tells me the New York Times really does not care about their subscribers nor their input. Please value your readers and fix these issues.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id111441952"
+          },
+          "name": {
+            "label": "Thubner"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.6.4"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "2462849958"
+        },
+        "title": {
+          "label": "Ads have gone beyond the tipping point"
+        },
+        "content": {
+          "label": "I suggest the Times’ editors attempt to read the online edition. The constant interruption of editorial content by ads is not simply a nuisance, but significantly interferes with a reader’s ability to absorb what he/she is trying to read. Ads in the print edition are outside of the article, hence do not interrupt. Further, touching the space where an ad appears (or the blank space where it will appear after downloading) while scrolling immediately redirects you to the advertiser’s web page in your browser, requiring several steps to get back to the Times. When any business places its short-term economic interest above the reasonable needs of its customers, the result is usually not good for the business (see the various airlines that have gone through bankruptcy). I fear that the Times is on this perilous path.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "5"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "5"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id39844227"
+          },
+          "name": {
+            "label": "Ruski6"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.12.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "3718182580"
+        },
+        "title": {
+          "label": "Love reporting, HATE the app!"
+        },
+        "content": {
+          "label": "The NYT is the paper of record and the gold standard for reporting. Unfortunately, this new app is awful! I am a long term subscriber. I have witnessed the NYT evolve from print, to PDF reader, to the first NYT app. Until now, each transition has been an improvement. With this new app, I can no longer download the entire paper and read it on the go. To read many of the articles, you must have a constant internet connection. Even then, articles take a looooong time to load and are so full of advertisements that it makes the articles difficult to read. If access to the paper was free, then maybe I could tolerate this. However, I pay a subscription only to be inundated with adds. I don’t won’t to make the transition back to paper, so sadly if the app doesn’t improve, I am going to cancel my subscription of more than 20 years and move over to the Washington Post app.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "2"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "2"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id379721845"
+          },
+          "name": {
+            "label": "reviewer4986"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "4630828780"
+        },
+        "title": {
+          "label": "Not great for iPads"
+        },
+        "content": {
+          "label": "The Today’s Paper section is often not new content from today but rather days-old stories.  If you regularly read the NYT that is a problem since you’d like to see just what is new today. This app refreshes very slowly with new content, even after requesting it. There is not an easy print to pdf function. Scrolling through stories requires going back to the home page, and it sometimes rearranges content if you are too slow. The WSJ has a much better app for the iPad. You can read a full paper each day, continuously swiping right to move between sections and stories if you like. When you get to the end you’re done with the full paper for the day. \n\nThe content is NYT so no complaints there and the graphics work well.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id33794483"
+          },
+          "name": {
+            "label": "hattifatti"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.0.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4425186605"
+        },
+        "title": {
+          "label": "New App is a BIG fail"
+        },
+        "content": {
+          "label": "Apparently, the app is rolling out new a new tabbed feature that should make it, according to the description, easier to navigate. However, as it currently stands, this test model (which has appeared on only one of my several devices—the others have been consigned to tech limbo for over a week now) makes navigating between two sections and individual news articles significantly more difficult. People read the newspaper differently. Some, like I, enjoy scanning through the sections they have customized by swiping. Could you please bring the swipe feature back? Why does it have to be one or the other? I have radically reduced my reading of the paper because the navigation is so cumbersome now, forcing you to go back to the homepage in order to chose another section and then article. That’s three taps as opposed to one swipe. Am I missing something?",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id41757029"
+          },
+          "name": {
+            "label": "Carshare1"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.9.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "3538708533"
+        },
+        "title": {
+          "label": "Many stories no longer downloaded"
+        },
+        "content": {
+          "label": "During the past few months the NY Times app has to go out to the Internet to get stories displayed in the app.  In my mind this diminishes the value of the app, especially for travelers who may not have an Internet connection or want to use mobile data to read particular articles.  I presume this is being done to speed up the initial loading of the current news.  Why not let it happen in background or at least give the user a setting?",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "2"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "3"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id32348839"
+          },
+          "name": {
+            "label": "Huntaf"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.3.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4586040475"
+        },
+        "title": {
+          "label": "Difficult for vision impaired"
+        },
+        "content": {
+          "label": "I’ve had the New York Times app for years. I enjoyed it very much. However I am vision impaired. Over the years in order to make the app work more attractive they have also made it more difficult to read. The use of clever fonts, the use a gray scale and the size of the text all over the years have worked against vision impaired. If there’s anyway you could make a black-and-white version it would help. Are used to download the iPhone app on my iPad. Then I could double the size and read it with no problem. Now of course you can’t download the iPhone app to your iPad. Anything that could be done to improve this app for vision impaired would be greatly appreciated.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id196030686"
+          },
+          "name": {
+            "label": "Jupitr1997"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.1.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4465990054"
+        },
+        "title": {
+          "label": "App stalls constantly - I’m not getting what I pay for"
+        },
+        "content": {
+          "label": "I love the coverage and content of the NYT. However, it’s become increasingly difficult to read via the app.I read mostly on my iPad; besides it taking 3-5 seconds to load, once it has, I’m unable to scroll the article to continue reading, nor select any of the options at bottom (Home, Top Stories, etc.). My device has plenty of memory and storage. I used to be able to double-click the Home button on my device, swipe away the page; re-open the app (isn’t having to do all this sad?)  and the app seemingly would have been “unstuck” - at least until the next article. However, now even that doesn’t work. As I’m no longer able to read “the paper” it’s not fair nor feasible nor fair for me to pay $125 year - I’m not getting what I pay for.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id282159832"
+          },
+          "name": {
+            "label": "stanekam"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.9.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "3498234121"
+        },
+        "title": {
+          "label": "App blocks functionality while loading ads"
+        },
+        "content": {
+          "label": "It’s already ridiculous as a paid subscriber that the NYT insists on feeding me ads through the app, but when the app actually BLOCKS users while loading ads it goes WAY too far. When I’m in an area with weak connectivity and I scroll through an article, the app will freeze while it fetches whatever trash ad that it wants to feed me. That means I can’t continue to scroll and read the actually interesting and valuable content that I PAY for. Since I have to deal with multiple of these areas in my commute and that’s my primary time of consuming content, it’s very likely I will cancel my subscription unless the blocking behavior is changed. As a developer, I know it’s not hard to do asynchronously so they are likely doing this to maximize ad views/clicks. Disgusting.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id3434759"
+          },
+          "name": {
+            "label": "MorganR"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.8.1"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "3388803962"
+        },
+        "title": {
+          "label": "Something has gone terribly wrong with this app"
+        },
+        "content": {
+          "label": "For a long time, the New York Times app was a great app - no longer. Recent changes make it almost unusable in situations where internet speeds are moderate to slow. I’ll be part way through reading a story, and the story will go blank, the screen says “loading”. Having the screen reload in mid-story is bad enough, but now it happens multiple times before I get through a single story. I don’t know what changed, but it’s really poor - with the current situation, the app is essentially unusable for me. The need to reload the same page again and again is just poorly thought out - it makes no sense whatsoever, dooming readers to a horrible user experience.  NY Times should fix this ASAP.\n\n—————-\n\nI like the news, and am finally satisfied with the application. The UI is good, and the performance zippy.\n\nWith the new version, stability is much improved, and the pop-up ads at the bottom of the list of news stories get in the way, but are manageable. That might get the app 5-stars ...\n\nBut the full-page pop-up ads are another story, overly intrusive and really annoying. Boo-hiss! I hate it.\n\nThey need to tone the ads down. Annoying customers is not a way to earn my business! Full-page pop-ups are just intolerable.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id34813415"
+          },
+          "name": {
+            "label": "Mike987977654335689"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.0.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "4343127997"
+        },
+        "title": {
+          "label": "New format eliminates paging through paper"
+        },
+        "content": {
+          "label": "The tabbed format prevents reader from sliding left through the section,  Now you have to go to the section’s main page to reach another story.  I liked ability to slide from one story to the next.  That is gone.  You cannot even do it in the Today’s Paper Section.  What sense does that make?\n\nAnother recommendation is to provide a bulk download step.  The main reason I used to page through stories was to grab the story for later offline viewing.  Unlike other e papers, NYT does not provide for bulk off line viewing.  You can only read offline the story you already read.  That was ok as long as I could flip through the stories to get them.  If you take away sliding, give us bulk download.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id42122145"
+          },
+          "name": {
+            "label": "BOBO-lingo"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.11.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "3654281837"
+        },
+        "title": {
+          "label": "The Buzzfeed version of the Times"
+        },
+        "content": {
+          "label": "It is a shame that the paper of record for the country has decided to move toward bullet points, lists, and lots of colorful pictures and graphics in their app. It feels like reading USA Today. I get the print version, but often end up reading on the (old) app because of the convenience. But reading on this new app feels like reading a Buzzfeed version of the Times. The hierarchy of stories featured doesn’t make sense, and it seems set up to encourage readers just to skim bullet points. Also, on the old app, there was a continuous scroll through the sections, but with this new version one has to go to the menu and select different sections. It is unfortunate, and I lament that I have to give up the app. But the WSJ and the Guardian are still friendly to the serious reader.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id238330787"
+          },
+          "name": {
+            "label": "Thurb1807"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.0.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "2929289323"
+        },
+        "title": {
+          "label": "Searches need improvement"
+        },
+        "content": {
+          "label": "Love the Times and the app is super easy to use for headlines and alerts etc. It would be helpful, though, if the search feature had a place to change results from being organized only by relevance but also by date. I send out a daily news-blast for work on a specific topic and it would be great if I could search from the app during my train commute. As it stands now, I can’t search like I can on the website for “search term” and get any mentions or article results and then organize results by date rather than relevance. I usually just end up going to nytimes on my browser on my phone rather than using the app. A more advanced search feature would be INCREDIBLY useful. Thanks!!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id41407804"
+          },
+          "name": {
+            "label": "drtr"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.11.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "3673609792"
+        },
+        "title": {
+          "label": "Horrible redesign, cluttered, filled with ads"
+        },
+        "content": {
+          "label": "This latest app is hideous if you truly want to read the times. No longer can I put all the sections in my frequently read column, they limit you to ten, forcing you to go back and forth from the menu. Many many ads, and for $20 a month for this content, a few ads like before were fine, as most of us want news organizations to thrive, but at this point I’m questioning my support of this paper. The format is now a mess with split screens, hard to find information and overall just a crappy design. You’ve taken one of the pleasures of my day and turned it into an irritant. I hate when companies redesign just for the sake of redesign. This seems to be one of those. My guess is some IT know nothing did the redesign not understanding anything about truly wanting to read the news.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id109104469"
+          },
+          "name": {
+            "label": "wsucarlsen"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.5.2"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "2182927316"
+        },
+        "title": {
+          "label": "For News, I love it."
+        },
+        "content": {
+          "label": "My wife and I have been readers now for years and we truly love the content. The stories in the real NYTs is so good. It is interesting how local newspapers around the countries republish the NYTs articles but omit some of the content. This is the real thing, almost always. Updates and corrections are handled well too.\nNow, however, interruptions with flashing adverts and ads separating reading content are so distracting that ‘the read’ is far less enjoyable. I realize that profit is king but our satisfaction should matter too.\nFive stars for content but only two stars for delivery.\nThe Washington Post Print Edition has become my first choice but I’ll also visit the Times but only second and I’ll spend less time there.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "21"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "30"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id194962107"
+          },
+          "name": {
+            "label": "AndyMacAndyMac"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.3.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "4578429914"
+        },
+        "title": {
+          "label": "Recent “usability” changes"
+        },
+        "content": {
+          "label": "I really do love this app. I’m not complaining about content since I think the NYT does a great job providing useful content. \n\nI find the recent navigation changes counter productive. Not really sure what they mean by less keystrokes since I have the opposite experience. \n\nAdding the tab to the main screen just uses up more space,  the older version allowed navigation to any section via the drop down button in the upper left corner. The only time saving might be getting back to the top stories. \n\nI really miss the ability to swipe through articles. Now you have to return to the section just to open the next story. And hopefully the app didn’t lose your position and take you back to the top of the list. \n\nAnd I haves found anything very useful in the for you section. \n\nAnd the app still hangs on a regular basis when you lose network connectivity. It really annoying for an app that is meant to work offline. It just randomly hangs up loading in page advertising. Too bad they can’t figure a way to truely make that a background operation.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id256352868"
+          },
+          "name": {
+            "label": "Kathleen3o928342039"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.4.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "3121479837"
+        },
+        "title": {
+          "label": "Flawed app"
+        },
+        "content": {
+          "label": "This app is far below par for a company like the New York Times. My two main issues are with 1) the video player and 2) the screen orientation bug. \n\n1. The video player\n\nNYT makes you watch an ad before seeing their videos, even if you are a subscriber. Not uncommon, but the ad will often continue playing over the video. Often, the player crashes on me and I have to reload a story or sometimes reopen the app. This is a shame, as I have skipped videos I've wanted to watch out of sheer frustration.\n\n2. Screen orientation bug\nThis is annoying because it is sloppy app design/maintenance. When I switch screen orientation on the NYT app, as one might do when trying to watch a video embedded within a story, I try to switch back only to be taken to the very top of the page. Sometimes I’m taken to a random part of the page as I switch orientation. It’s confusing and often makes me close the app right away out of frustration. \n\nI’ve had these issues with the NYT app for years, assuming they would fix these obvious problems. That hasn’t happened. \n\nPlease fix your app.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id206334767"
+          },
+          "name": {
+            "label": "Eetshit"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.3.1"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "3108800039"
+        },
+        "title": {
+          "label": "It’s getting worse not better"
+        },
+        "content": {
+          "label": "I like the app for the most part but it has recently been changing and not for the best. Previously you could open the app in the morning and the entire paper (except the photos section) would be on your device so you could read it even if you had no wifi or cellular connction later on. I have a wifi only ipad. Now an ever increasing number of articles do not load immediately on your device and you must have an active connection to read them. This only affects those with a wifi only device but it is still a step backward that makes the app less useful.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id151233227"
+          },
+          "name": {
+            "label": "Bruce in SB"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.1.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4449796579"
+        },
+        "title": {
+          "label": "Ads kill this app"
+        },
+        "content": {
+          "label": "I’m a digital subscriber to NYT, and I love their coverage. However the app had a fatal flaw, which is the ads. 1. They take up as much as half a screen, requiring more scrolling to read a story. 2. They load slowly and the space for the is not pre-allocated, so that articles jump around as I’m scrolling through the list of headlines. The ads often cause the app to freeze, from anywhere from 10 seconds to permanently. \n\nI was already a bit annoyed to be getting served ads when I’m already paying for the subscription, but I reasoned that the NYT needs the revenue. But I was recently on the mobile website and discovered that it is visually identical to the app, except for one thing: it doesn’t have ads!!!\n\nC’mon, NYT, either drop the ads for subscribers or keep them out of the way of the news.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id278485110"
+          },
+          "name": {
+            "label": "TameTina"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.7.1"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "2616784614"
+        },
+        "title": {
+          "label": "Ads are ruining my experience"
+        },
+        "content": {
+          "label": "I understand the need for ads to be present throughout articles, though I have noticed they’ve increased. They have become too intrusive on my app experience. The banners bear too large a click area and as I pan through my article, I’m incessantly accidentally clicking through to other sites. If your banner ads are taking up more than half the page on my phone, reconsider what you’re peddling to your users. Honestly, if you could just shrink the banners’ clickable area, possibly to a small word, that’d be great. If you could be rid of the click through altogether, that would be better. I’ll still read the ad, I just won’t be led away from your app.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "4"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "4"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id41486384"
+          },
+          "name": {
+            "label": "ATHill22"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "6.6.1"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "2387327167"
+        },
+        "title": {
+          "label": "Great App and News Source W/ Some Faults"
+        },
+        "content": {
+          "label": "I sub to the NYT to get my daily news and information and I’ve cut out news updates on Facebook, Twitter and other social media and breaking news sources. By waiting to read the news until it’s published in the NYT I feel much better informed on the happenings internationally and at home. As a news source, the NYT is excellent. Into the actual app review. \n\nThe app works really well on my iPhone and iPad running iOS 11.3. Everything loads quickly and I love the auto download feature for new content, especially when I am traveling. However, the downside is that there are ads all over the app and digital versions of the NYT. I pay a monthly fee to access their content and I don’t like that I still have to see these ads. \n\n5/5 stars for content\n5/5 stars for the interface and overall functionality of the app\n2/5 for ads all over the place. Reading on my iPhone can be cumbersome because the ad will take up the whole screen at times. It isn’t as noticeable on my iPad. \n\nI’d probably give it 5 stars if it weren’t for the ads everywhere.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id321155081"
+          },
+          "name": {
+            "label": "LauraMona"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.3.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4582068499"
+        },
+        "title": {
+          "label": "Got worse. Very frustrating."
+        },
+        "content": {
+          "label": "The previous version of the app was great. The new one is awful!!! I’m being very generous giving the app four stars.  They removed functionality making it impossible to navigate to the previous/next article or previous/next section! You can you longer swipe to get to the previous or next article. When you hit the back button takes you to the top article in the list! I never get to the bottom articles in the list anymore because it’s just too much work and I’m too frustrated to continue by that point so I put my phone down in frustration.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id46245456"
+          },
+          "name": {
+            "label": "MaxCharmer"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.0.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4426308130"
+        },
+        "title": {
+          "label": "Bad Update"
+        },
+        "content": {
+          "label": "Content still good although in the last few years there have been an increase in the number of “feel good” pieces. There are also some articles that now get by editors without the classic first paragraph summary of who, what, when, where, how.\n\nBut I’m burying the lead. The real point of this review is the new updated app.\n\nProblems with recent update:\n\n1. Less easy to navigate. Removed ABILITY TO SWEEP left/right through sections. NYT needs to bring back that functionality or make it an option.\n\n2. TOP STORIES section found on a new, worthless bottom dock, separate from other sections in the side pull down bar. NYT needs to put it back on top of side menu.\n\n3. NYT either has unfulfilled plans for the BOTTOM DOCK or they just wanted to annoy me with another pull down/up/side sliding menu for only 3 (three / III !!!) items. NYT needs to get rid of bottom dock. NYT needs to put those sections on side menu and highlight them if they want to promote them. \n\n4. Had to search for ACCOUNT SERVICE section. Easy to find before at top of side menu pull down. Now it’s hiding in the “For You” section. Not intuitive. NYT needs to put app options including acct services back on top of side pull down menu.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id21268838"
+          },
+          "name": {
+            "label": "keagriver"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.8.1"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "3387426260"
+        },
+        "title": {
+          "label": "Awesome news source, awful app"
+        },
+        "content": {
+          "label": "The NYT is a terrific source of thoughtful writing and careful journalism. This app? Horrible. I read primarily on my iPad, and hot advertisements are so large it distracts from the articles. When this version came out I stuck with the previous version as long as I could, but it seems to have been made obsolete.\nNYT, we understand the need for advertising, but these ads are so large and intrusive as to make the reading process unbearable. There are ads in the middle of an article that are larger than the screen, causing me to either think the article ended, or to scroll beyond to continue reading. It breaks the continuity of the article.\nIf this were a free app I would understand, but it’s not. An all access account is not an insignificant purchase. Please fix this problem.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id41993458"
+          },
+          "name": {
+            "label": "TuringKai"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "7.8.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "3321369502"
+        },
+        "title": {
+          "label": "Good content, but intrusive ads ruin it"
+        },
+        "content": {
+          "label": "I like the N.Y. Times, and think what they do is not only critically important but also done with a high level of quality.  However, as a subscriber I cannot seem to get through a handful of articles on the mobile app without having to navigate tons of annoying ads.  Some scroll with the story.  Many are placed so that they accidentally launch into some video or subsite.  NONE of them are relevant and ALL of them make me want to just close the app.  It is getting so bad that I may just cancel the subscription since I’m not getting an experience that is much different from standard websites that inundate me with solicitations.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id29717473"
+          },
+          "name": {
+            "label": "Leepre"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "4715771854"
+        },
+        "title": {
+          "label": "Update is a downgrade"
+        },
+        "content": {
+          "label": "I have been reading the NYT on my iPad for 7 years and this new update stripped away features and actually makes it harder to use. The sidebar is gone. So if I am in an article I have to navigate back to the home page to click on the bottom bar to get to the sections. There is no discernible way to access my settings or account. It feels like I was on the A-team before with a nice app and now I’m on the C-team with a simplistic app. Also, I’ve clicked on quite a few story titles that lead me to unrelated stories. Clickbait? What gives, NYT? I still love your content but if you can’t even direct me to the content I’ve requested, how am I supposed to enjoy it?",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id25000770"
+          },
+          "name": {
+            "label": "Ignatz8"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "8.8.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4311179663"
+        },
+        "title": {
+          "label": "Poor interface"
+        },
+        "content": {
+          "label": "This is one of the only apps that doesn’t work well with its own links or offer to open links found elsewhere—like in their own daily brief email—in the app. So links emailed to me from NYT open in a browser and despite being a subscriber I get booted after opening a certain number. And for whatever reason, it doesn’t let me sign in via the browser. It doesn’t recognize my subscriber login email and password. Go figure. It’s especially annoying since I receive the European edition of the daily brief so have to hunt for the articles I want to read in the app.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id24144735"
+          },
+          "name": {
+            "label": "TLMuse"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "8.3.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "3969510802"
+        },
+        "title": {
+          "label": "Email subject autofill still missing"
+        },
+        "content": {
+          "label": "It's been a solid app for a while, but after the previous update I experienced many more crashes than previously. More importantly, when sharing an article by email, the app stopped autofilling the email subject with the article title, instead leaving it blank. I figured this was an obvious oversight/regression that would be fixed in the new version. So I eagerly updated yesterday. Alas, no luck—the subject for sharing by email is still blank. Come on, NYT, this is an obvious problem that should have a quick fix (speaking as a developer myself). On the plus side, so far no crashes with this update.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      }
+    ],
+    "updated": {
+      "label": "2019-09-06T08:37:32-07:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store: Customer Reviews"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=1"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mostHelpful/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "first",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mosthelpful/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostHelpful/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "last",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=10/id=284862083/sortby=mosthelpful/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostHelpful/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "previous",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mosthelpful/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostHelpful/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "next",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=2/id=284862083/sortby=mosthelpful/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostHelpful/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mostHelpful/json"
+    }
+  }
+}

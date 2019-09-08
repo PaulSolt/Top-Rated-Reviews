@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD145048232477AB0025DAD9 /* AppReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD145047232477AB0025DAD9 /* AppReviewService.swift */; };
+		BD14504C2324AE6D0025DAD9 /* AppReviewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14504B2324AE6D0025DAD9 /* AppReviewLoader.swift */; };
+		BD14504F2324AEA00025DAD9 /* MostHelpful.json in Resources */ = {isa = PBXBuildFile; fileRef = BD14504D2324AEA00025DAD9 /* MostHelpful.json */; };
+		BD1450502324AEA00025DAD9 /* MostRecent.json in Resources */ = {isa = PBXBuildFile; fileRef = BD14504E2324AEA00025DAD9 /* MostRecent.json */; };
+		BD1450532324B5680025DAD9 /* String+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1450522324B5680025DAD9 /* String+Version.swift */; };
 		BD19B248231DCC1600A898A7 /* ReviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19B247231DCC1600A898A7 /* ReviewRow.swift */; };
 		BD19B24A231DDDBF00A898A7 /* ReviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19B249231DDDBF00A898A7 /* ReviewList.swift */; };
 		BD1A269B23240144005E697F /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A269A23240144005E697F /* AppVersion.swift */; };
@@ -24,6 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD145047232477AB0025DAD9 /* AppReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewService.swift; sourceTree = "<group>"; };
+		BD14504B2324AE6D0025DAD9 /* AppReviewLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewLoader.swift; sourceTree = "<group>"; };
+		BD14504D2324AEA00025DAD9 /* MostHelpful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MostHelpful.json; sourceTree = "<group>"; };
+		BD14504E2324AEA00025DAD9 /* MostRecent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MostRecent.json; sourceTree = "<group>"; };
+		BD1450522324B5680025DAD9 /* String+Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Version.swift"; sourceTree = "<group>"; };
 		BD19B247231DCC1600A898A7 /* ReviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRow.swift; sourceTree = "<group>"; };
 		BD19B249231DDDBF00A898A7 /* ReviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewList.swift; sourceTree = "<group>"; };
 		BD1A269A23240144005E697F /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
@@ -53,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD1450512324AEA30025DAD9 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				BD14504D2324AEA00025DAD9 /* MostHelpful.json */,
+				BD14504E2324AEA00025DAD9 /* MostRecent.json */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
 		BD1A26992323FEEF005E697F /* Reviews */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +79,9 @@
 				BD1A26A22324115B005E697F /* AppReviewURL.swift */,
 				BD1A26A023241123005E697F /* ReviewStats.swift */,
 				BD1A269C23240E08005E697F /* Review.swift */,
+				BD145047232477AB0025DAD9 /* AppReviewService.swift */,
+				BD14504B2324AE6D0025DAD9 /* AppReviewLoader.swift */,
+				BD1450522324B5680025DAD9 /* String+Version.swift */,
 			);
 			path = Reviews;
 			sourceTree = "<group>";
@@ -91,6 +113,7 @@
 				BDA57155231D478900017643 /* StarRatings.swift */,
 				BD1A26992323FEEF005E697F /* Reviews */,
 				BD19B249231DDDBF00A898A7 /* ReviewList.swift */,
+				BD1450512324AEA30025DAD9 /* TestData */,
 				BDA57157231D478B00017643 /* Assets.xcassets */,
 				BDA5715C231D478B00017643 /* LaunchScreen.storyboard */,
 				BDA5715F231D478B00017643 /* Info.plist */,
@@ -167,7 +190,9 @@
 			files = (
 				BDA5715E231D478B00017643 /* LaunchScreen.storyboard in Resources */,
 				BDA5715B231D478B00017643 /* Preview Assets.xcassets in Resources */,
+				BD1450502324AEA00025DAD9 /* MostRecent.json in Resources */,
 				BDA57158231D478B00017643 /* Assets.xcassets in Resources */,
+				BD14504F2324AEA00025DAD9 /* MostHelpful.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA57152231D478900017643 /* AppDelegate.swift in Sources */,
+				BD145048232477AB0025DAD9 /* AppReviewService.swift in Sources */,
 				BD1A269D23240E08005E697F /* Review.swift in Sources */,
 				BD1A269F23240E74005E697F /* StarRating.swift in Sources */,
 				BD1A269B23240144005E697F /* AppVersion.swift in Sources */,
@@ -187,6 +213,8 @@
 				BD19B24A231DDDBF00A898A7 /* ReviewList.swift in Sources */,
 				BD1A26A32324115B005E697F /* AppReviewURL.swift in Sources */,
 				BDA57156231D478900017643 /* StarRatings.swift in Sources */,
+				BD14504C2324AE6D0025DAD9 /* AppReviewLoader.swift in Sources */,
+				BD1450532324B5680025DAD9 /* String+Version.swift in Sources */,
 				BD6CA1EB231F439700C79B21 /* ReviewFetcher.swift in Sources */,
 				BD1A26A123241123005E697F /* ReviewStats.swift in Sources */,
 			);

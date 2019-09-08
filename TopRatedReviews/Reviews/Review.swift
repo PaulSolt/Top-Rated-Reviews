@@ -9,7 +9,7 @@
 import Foundation
 
 /// App Review and rating from a customer
-struct Review: Decodable {
+struct Review: Decodable { // TODO:, Equatable {
     let id: String
     let author: Author
     let versionReviewed: String

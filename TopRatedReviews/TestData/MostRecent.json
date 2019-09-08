@@ -1,0 +1,2418 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id25678285"
+          },
+          "name": {
+            "label": "courtz1234512345"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4734137955"
+        },
+        "title": {
+          "label": "Return basic functionality"
+        },
+        "content": {
+          "label": "Bring back the simple function of flipping through the sections with a swipe. It was the one simplistic thing that felt like browsing, and in recent months you’ve taken the functionality away to introduce the hunt and peck method to browse. I flip to other apps quicker and will soon tire of this one.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id1069782027"
+          },
+          "name": {
+            "label": "kkkdjeueppjdhdh"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4730892696"
+        },
+        "title": {
+          "label": "Regressing on Navigation"
+        },
+        "content": {
+          "label": "Please fix the swipe-left function so I can navigate to the next story.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id187346286"
+          },
+          "name": {
+            "label": "iJeydon"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4730585524"
+        },
+        "title": {
+          "label": "Buggy Ads, Inappropriate Ads"
+        },
+        "content": {
+          "label": "The content itself, including images and video reporting all loads quickly but the ads load slowly, or sometimes not at all. Pre-roll ads on video reporting are particularly troublesome. I have to force close the app to get them to load, and the video won’t play until I watch the ad. Then there’s the ads in the middle of text articles, which sometimes flicker and move up and down the page, moving the text with it over and over making it impossible to read the actual piece.\n\nThen there’s the problem with inappropriate ads. The ads are provided by google apparently, so I presume there are no humans at the wheel deciding whether it’s a good idea to put lingerie on my screen while I’m trying to read the morning news in public.\n\nI don’t know how much my digital subscription is being subsidized by these awful buggy ads, but I’d be happy to pay a higher cost if it meant getting rid of all of this so I can actually see the content I’m paying for.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id28695481"
+          },
+          "name": {
+            "label": "yc12$4"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4728093383"
+        },
+        "title": {
+          "label": "Just plain unstable"
+        },
+        "content": {
+          "label": "For all the resources that NYT has, it just cannot seem to make an app that works without crashing.  It locks up at least once or twice everyday....probably because every page is loaded with ads and trackers.  Am now leaning towards canceling my subscription.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id24938184"
+          },
+          "name": {
+            "label": "SfCG2012"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4727223346"
+        },
+        "title": {
+          "label": "Downloading for offline"
+        },
+        "content": {
+          "label": "So sad!! With this app, you used to be able to download the whole paper to read offline later, on a flight for instance. Now you need to be online for most pieces. This is going backwards. The old app was better.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id46174700"
+          },
+          "name": {
+            "label": "Lucywolff"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "4726021702"
+        },
+        "title": {
+          "label": "Sensationalist and overwhelming"
+        },
+        "content": {
+          "label": "Sensationalist some times. I need a breaks from NYT at least twice a year. \nCoverage is sometimes cynical and negative  in tone.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id1069147048"
+          },
+          "name": {
+            "label": "return.?123"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4724081638"
+        },
+        "title": {
+          "label": "Dark mode please"
+        },
+        "content": {
+          "label": "App works perfectly well. Ads are present but seem unobtrusive and I’m mostly immune to them by now. I guess most people read the news in the morning, but not me so a dark mode would be really appreciated.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id105815381"
+          },
+          "name": {
+            "label": "ItsAllOnesAndZeroes"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4722434342"
+        },
+        "title": {
+          "label": "Great Source But Advertising is Pervasive"
+        },
+        "content": {
+          "label": "Update: Deleted app, ads are too distracting when you are trying to read and too many per article.\n\nNYTimes has some of the best journalism you can find. Articles are well written and very thorough. You will not find clickbait or some headline that is catchy just to get you to click on it. Also, I do enjoy the “for you” section, it is a nice touch. However, as a subscriber, the one thing that is annoying about the app is how pervasive the advertising is. One or two ads per article seems reasonable, but when they are littered throughout an article and they cause the text to jump as you read, it becomes difficult to read.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id138780840"
+          },
+          "name": {
+            "label": "dhrbrufurrhriirhrhru"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4720571154"
+        },
+        "title": {
+          "label": "Please bring back the “swipe between sections” feature"
+        },
+        "content": {
+          "label": "The application is too complicated to dive into without it and I find myself stuck on the front page.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id130760739"
+          },
+          "name": {
+            "label": "prjorgensen"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4717470975"
+        },
+        "title": {
+          "label": "The app gets worse with each update"
+        },
+        "content": {
+          "label": "I’m not sure for whom this app is written. I have “auto play videos” off yet am inundated with moving graphics. I do not care about the podcasts or tv shows. The “Today’s Paper” section will show articles from up to five days prior. They removed functionality where you could move to the next article by swiping - now you have to go back to the section.\n\nAnd don’t get me started on the absurd amount of advertising. I’m deleting the app.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id29717473"
+          },
+          "name": {
+            "label": "Leepre"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "4715771854"
+        },
+        "title": {
+          "label": "Update is a downgrade"
+        },
+        "content": {
+          "label": "I have been reading the NYT on my iPad for 7 years and this new update stripped away features and actually makes it harder to use. The sidebar is gone. So if I am in an article I have to navigate back to the home page to click on the bottom bar to get to the sections. There is no discernible way to access my settings or account. It feels like I was on the A-team before with a nice app and now I’m on the C-team with a simplistic app. Also, I’ve clicked on quite a few story titles that lead me to unrelated stories. Clickbait? What gives, NYT? I still love your content but if you can’t even direct me to the content I’ve requested, how am I supposed to enjoy it?",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id39923048"
+          },
+          "name": {
+            "label": "TheBRADLeyB"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4715271737"
+        },
+        "title": {
+          "label": "Only gripe is the advertisement alerts."
+        },
+        "content": {
+          "label": "The alerts this app push are mostly worth pushing, however there’s a lot of them pushing advertisements for their FX TV show. Still better than the garbage the USA Today App would push alert and a bit more active than the AP News apps push alerts.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id200310523"
+          },
+          "name": {
+            "label": "newsjunky2019"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4714940902"
+        },
+        "title": {
+          "label": "Can’t swipe through stories"
+        },
+        "content": {
+          "label": "I hate that I can’t open a story and keep swiping through to the next story.  Have to return to the home page each time for the next story.  We should be able to start with the to story and swipe through just like reading a paper. If I want a particular section I should be able to pick it, choose a story to start with and then swipe through the next stories until I hit the next section.  Perhaps what I’m looking for is a newspaper view.  Please add that or create a new app that is more like reading the newspaper and stop with the he back and forth to the home screens.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id33911595"
+          },
+          "name": {
+            "label": "N7702Y"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4714079944"
+        },
+        "title": {
+          "label": "Great reporting, horrible app"
+        },
+        "content": {
+          "label": "I love the New York Times. I love the hard work they do reporting of daily news. The editorials (mostly) are cogent, well researched and thought through arguments, even the ones I disagree with.\n\nBut the app is horrible, and seems to get steadily worse. You used to be able to navigate it by swiping on your iPad. Now you need to go to a section selector to navigate, and there are no tabs at the top of the page.\n\nI can’t begrudge the money spent on the reporting, but for God’s sake, can’t you find some money to get a decent app written?",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id138219892"
+          },
+          "name": {
+            "label": "Skeptic on Wheels"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4709954353"
+        },
+        "title": {
+          "label": "Navigation is HORRIBLE — PLEASE BRING BACK OLD UI"
+        },
+        "content": {
+          "label": "HORRIBLE, HORRIBLE new design for navigating sections on iPad. PLEASE BRING BACK LEFT-SIDE MENU TO NAVIGATE SECTIONS. Why in the world is this called tabbed browsing?? There are no tabs—just a hideous white screen with section titles. Must click and back-click to enter and exit each section. Laborious and tedious just to browse a newspaper. This has gone from 5-star to 1-star app.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id144283658"
+          },
+          "name": {
+            "label": "Sinasappel"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "4708585866"
+        },
+        "title": {
+          "label": "Great Journalism; lousy presentation"
+        },
+        "content": {
+          "label": "Whatever happened to the great New York Times. It used to be a paper of high integrity; above the fray of pulp pieces about how to better clean your vacuum or what to see on, oh wait, you can’t; we only show it on Hulu. \n\nOf course, it still offers the best Journalism. Worth its subscription, and more. But it’s app is quickly descending into reader mush.  \n\nI understand that newspapers, or media companies, need to make money to produce the otherwise great journalism. But the video adds blink and blast right through it and articles jump because of the next barrage of commercial insertions. It takes a judicious reader to shift the worthy from the unworthy as thoughtful pieces are mixed with those ordinarily seen clickbait sights. Titles used to state content. And no, I don’t need thinly vailed advertising for your other services and companies. \n\nThe New York Times is better than that. At least that what I thought; what I truly hope.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id29951588"
+          },
+          "name": {
+            "label": "Henree174"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4707469948"
+        },
+        "title": {
+          "label": "Terrible app"
+        },
+        "content": {
+          "label": "I’ve had access to screaming fast internet in my home, but the app has unacceptably long download times. This lag is apparent both when you refresh the app on the home page, as well as individual articles and sections of the newspaper.  The older version of this app was much better, both in terms of download speeds as well as the actual layout of the paper.\n\nThe only thing that keeps me using this app is the quality of the journalism; the app simply isn’t up to the standards of the NY Times.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id3689492"
+          },
+          "name": {
+            "label": "nytlabrat"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4705484037"
+        },
+        "title": {
+          "label": "Constantly crashes"
+        },
+        "content": {
+          "label": "Love the NYT. However latest update freezes and crashes constantly.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id32964403"
+          },
+          "name": {
+            "label": "retailbna"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4704896399"
+        },
+        "title": {
+          "label": "Update"
+        },
+        "content": {
+          "label": "Go back to the old format.  To change sections now you have to scroll to the top, hit the back button, click on the bottom of the page, and then go to the next section.  This occurs when you go again to the next section.  \nAre a look at th Wall Street Journal.  There you can simply slide the page left or right for the next section. \nLove the paper, but you continue to make it harder to use",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id135024543"
+          },
+          "name": {
+            "label": "Rad_911"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4704845356"
+        },
+        "title": {
+          "label": "Can’t even open the app anymore"
+        },
+        "content": {
+          "label": "Since this new update the app won’t even open on my iPad. It crashes every time I try and I’ve tried re-booting my device as well and it doesn’t help.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id36451486"
+          },
+          "name": {
+            "label": "Next Wave"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4703050766"
+        },
+        "title": {
+          "label": "Erratic at best"
+        },
+        "content": {
+          "label": "Now commenting sometimes works. Nag menus keep getting reset. New navigation is more complicated.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id180286015"
+          },
+          "name": {
+            "label": "888K888"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4702726249"
+        },
+        "title": {
+          "label": "Excellent NYT content; Sections/Search area need improvement"
+        },
+        "content": {
+          "label": "Love having NYT journalism available in my mobile device with my weekend print edition subscription.  Please improve Sections area by filling in gaps (For example, Smarter Living and Wirecutter are both missing right now). Please also optimize the search function.  At the very least it needs an option for “sort order,” if not actual filters or advanced search. (Currently results come out in totally random order, neither by date nor relevance, and this is on an IPad Air running current iOS 12.4.). The app’s search function is practically useless. (By contrast, a Google search using the phrase New York Times and a keyword from the article immediately brings up the most recent and relevant article as the top result.)",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id152913538"
+          },
+          "name": {
+            "label": "Longtime NY Times App User"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4693759993"
+        },
+        "title": {
+          "label": "Latest update goes back in time"
+        },
+        "content": {
+          "label": "With the latest update you can no longer swipe through articles left and right. Also, readers can no longer swipe through sections left and right. Need to go back to the contents section to navigate to another section. Please go back to the last version of the App.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id17542551"
+          },
+          "name": {
+            "label": "Ms.Reluctant Tweeter"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4691497065"
+        },
+        "title": {
+          "label": "Slow, can’t search"
+        },
+        "content": {
+          "label": "I’ve finally reduced my rating to 1 as I’ve watched this app become increasingly slow and difficult to refresh. Offline capabilities are critical for commuters, but if the refresh doesn’t work you’re out of luck. Also, the search functions is lacking. Please add the ability to sort search results by date. Otherwise, the search function is almost useless.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id100662166"
+          },
+          "name": {
+            "label": "Tenant171"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4691407696"
+        },
+        "title": {
+          "label": "You buy subscription, but get no ap"
+        },
+        "content": {
+          "label": "It used to be slow to refresh. Then it stopped working. I erased and downloaded again, updated iOS, erased caches... nothing. The ap would not open. I am paying a full subscription, but no paper. Oh, and the Times never responded.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id16534216"
+          },
+          "name": {
+            "label": "Fun but wrong"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4691365224"
+        },
+        "title": {
+          "label": "Awful"
+        },
+        "content": {
+          "label": "For some bizarre reason they seem to have ruined this app. Now it takes two steps to scroll from one section to another. You can’t simply scroll to the right. You have to go back to the main menu and click the section you want to go to. It’s beyond me why anyone would think this was useful. I basically stop using the app and gone back to New York Times.com",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id154524897"
+          },
+          "name": {
+            "label": "BradTrentNYC"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4690638341"
+        },
+        "title": {
+          "label": "Massive FAIL !!!"
+        },
+        "content": {
+          "label": "This latest ‘upgrade’ to the NYTimes iPad app (August 2019) is such a huge failure, I’ve taken to reading the Times in my Safari app instead of using the dedicated app! Of course, this means I lose a lot of the app’s built in features, especially expanded graphics, but at least I can navigate through stories quickly. This newest version gets rid of the swipe left & right function that allowed you to jump from section to section and story to story easily. Instead, the reader must now go back to the home page and chose from a ‘sections’ button. And there also seems to be a bug between hardware versions. I have an iPad Air 2 running the latest OS and in my case I don’t have a menu button that includes all of the individual Sections and a user login page. That means I have no way to login to my account! My wife’s latest model iPad has this menu button, but not the ‘Top Stories’, ‘For You’ and ‘Sections’ buttons at the bottom of her screen! \n\nI sure hope somebody at the Times reads this and explains to me how any of this enhances my reading experience! What possible reason is there for getting rid of the swipe right/left function?!! And for the love of God, tell me how I can get a menu button with a Login option!!!\n\nUPDATE: In the time since this latest update, I find myself missing stories. I seriously hate losing the swipe navigation function. I literally miss stories because I don’t typically select certain sections of the paper, but with the old swipe option, I would see stories as I swipe through the sections. What a letdown!!!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id171330891"
+          },
+          "name": {
+            "label": "zenlibrarian"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4689653040"
+        },
+        "title": {
+          "label": "Even worse :("
+        },
+        "content": {
+          "label": "Please bring back swiping between sections. Too many taps now and I have to remember which section I was last reading in order to get to the next? FAIL.\n\nprincess problems I know, but really NYT, you can do better!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id70012815"
+          },
+          "name": {
+            "label": "Pal0103"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4687342898"
+        },
+        "title": {
+          "label": "Great but...."
+        },
+        "content": {
+          "label": "What happen to the right to left swipe feature between sections so you can access it more easily then having to keep going to the navigation bar? That feature was great then was taken away.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id13191369"
+          },
+          "name": {
+            "label": "Dcodea"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.5.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4687340687"
+        },
+        "title": {
+          "label": "They continue to ignore their users"
+        },
+        "content": {
+          "label": "They removed swiping. Articles load incredibly slowly. They don’t listen. The app is horrible. The newspaper isn’t worth it.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id27676586"
+          },
+          "name": {
+            "label": "shepdave"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "4686161983"
+        },
+        "title": {
+          "label": "Finally! Email links open in the app!"
+        },
+        "content": {
+          "label": "The NYT app is well organized and ready to read. But for at least two years, links in the daily emails (such as \"Today's Headlines\" or \"Personal Tech\") have opened up to a web page in Safari, not the app. This morning, wonder of wonders, the links are opening in the app. Don't know what took so long for this to happen, but thanks, developers and NYT web team!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id165024645"
+          },
+          "name": {
+            "label": "velofellow"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4686128844"
+        },
+        "title": {
+          "label": "Veloman"
+        },
+        "content": {
+          "label": "For reasons known only to the NYT, they have now changed the app yet again in a way that makes it harder to navigate.   Now if I want to move from the Top Stories section to one of the individual sections I need to go to an entirely different menu.   Much more cumbersome.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id43978861"
+          },
+          "name": {
+            "label": "Big, Big John"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4685699199"
+        },
+        "title": {
+          "label": "Still Great Content, but Too Many Ads"
+        },
+        "content": {
+          "label": "Update 8/2019 (v9.3):  Photo zoom bug has been fixed (thank you!). Still way too many ads, and they’re intrusive and annoying. \n\nUpdate 6/2019:  Still great reporting, but too many ads, even for paid subscribers. Also, how come I can’t zoom in on photos any more?  Also wish I could scroll through all articles in a single section, like Modern Love. \n\nUpdate 5/2019:  Love the content, hate the ads, especially auto play video (which should be outlawed IMHO). I’m a long-term subscriber, but hate having to manually close all the ads. Very annoying. \n\nUpdate 11/2018:  Props to NYT for listening to users, and adding comments back in the app.  Yay!  Now if only I could search through comments...",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id970489855"
+          },
+          "name": {
+            "label": "IOSREVIEWER240"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4685264173"
+        },
+        "title": {
+          "label": "DOWNHILL"
+        },
+        "content": {
+          "label": "I’ve always considered the NYT the most respective periodical in the world. Unfortunately, like most media in the US, it has become very opinionated and more like commentary adhering to a public population that is more interested in what’s entertaining than informative. \n\nWhat is more, considering that this subscription cost $15 a month while still having annoying adds, I am actually deleting the app despite having another 3 weeks of the subscription left.\n\nVery disappointed with what NYT has become.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id39770664"
+          },
+          "name": {
+            "label": "jitter????"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4685095745"
+        },
+        "title": {
+          "label": "Navigation Is Horrible"
+        },
+        "content": {
+          "label": "Need to travel back and forth between menus to browse through the paper. I am now just using “Top Stories” button (which isn’t even included in top level menu!) and not bothering with the rest of the content. Rather being an app that I spend time in and NYT gets ad revenue for it has become a quick hit - in and out. Developers did a disservice to both the users and the financial contribution the app should provide to the NYT ownership.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id194862623"
+          },
+          "name": {
+            "label": "adubby123"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4684497591"
+        },
+        "title": {
+          "label": "Austin"
+        },
+        "content": {
+          "label": "most biased. Absolute FALSEHOODS... this magazine is dying. nYT truly is FAKE NEWS",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id34787311"
+          },
+          "name": {
+            "label": "estoughton"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4684309184"
+        },
+        "title": {
+          "label": "App Continually Crashes"
+        },
+        "content": {
+          "label": "App Continually Crashes. Filled with ads, even though I’m a paying subscriber.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id324406907"
+          },
+          "name": {
+            "label": "dr g 123"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4683906798"
+        },
+        "title": {
+          "label": "Recent updates make app unusable"
+        },
+        "content": {
+          "label": "This used to be my main app for news with a paid subscription. But an update months ago killed its use ability. You can no longer seem to swipe left or right to go between articles or sections. Instead I have to keep navigating back and forth. Makes reading extremely difficult. I use my Apple news app instead these days. It is sad that a bastion of good curated news and opinion has fallen to poor UI in the digital age.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id15585615"
+          },
+          "name": {
+            "label": "NYCPrynne"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4683108841"
+        },
+        "title": {
+          "label": "Wonky"
+        },
+        "content": {
+          "label": "Slow to load stories.  Save function does not work across all platforms, or even from app to app anymore.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id35984699"
+          },
+          "name": {
+            "label": "swellxrider"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4682301514"
+        },
+        "title": {
+          "label": "Why so many ads??"
+        },
+        "content": {
+          "label": "I love the nytimes. But after the monthly cost of subscribing I cannot fathom why there are so many ads in this app. Not to mention - many of them are animated, flashing obnoxiously and remaining a total distraction from otherwise good content. I could hardly read an article today with two flashy ads visible at once. I mean goodness an iPhone screen is only so big. Two? It’s a shame. Static ads only if we must have ads!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id151649829"
+          },
+          "name": {
+            "label": "App Innovator"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4682130807"
+        },
+        "title": {
+          "label": "App crashes"
+        },
+        "content": {
+          "label": "Hi! Hopefully you’re reading these.   I’ve been having to reinstall the app lately because it crashes every time I open it.   Seems like it has to do with AB testing or something because it started with the new app design, and every time time I reinstall from App Store I get the old app design.  Then once the app becomes the new design again- the bug that occurs is- if I kill the app from an article and then attempt to open the app a day later, when it attempts to open (loading the same article) it crashes.  Have no way of getting to home screen so I have to reinstall again",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id100861089"
+          },
+          "name": {
+            "label": "Dave.Ed"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4682127799"
+        },
+        "title": {
+          "label": "Too many ads, also Bret Stephens"
+        },
+        "content": {
+          "label": "There are multiple ads in every article making it hard to scroll down w/o accidentally clicking on one and breaking up the flow of the text. And I pay for a subscription! Update: still sick of scrolling past the same razor ad over and over. Maybe I should check out WAPO’s app instead. Also still annoyed that cooking used to be included but now you have to pay more to get this section.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id29430777"
+          },
+          "name": {
+            "label": "Noladaisy"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4681059033"
+        },
+        "title": {
+          "label": "Bring back swipe navigation!"
+        },
+        "content": {
+          "label": "Love The NY Times, love reading it on my iPad, but taking away the swipe navigation was a major setback. I now read fewer articles because it is too clumsy to keep going back to choose sections.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id21200356"
+          },
+          "name": {
+            "label": "123Mayberry"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4677084834"
+        },
+        "title": {
+          "label": "The current version makes a case to return to the convenience of a paper edition."
+        },
+        "content": {
+          "label": "I just wonder if the techies who develop this current version are actually readers.  While I will always read the Times, I simply do not enjoy at all the inconvenience in the current version of flipping from section to section, article to article.  Though a minor point compared to the aforementioned, this version seems to freeze more often too.  But the big complaint, again, is the this version makes me miss the paper edition.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id34019446"
+          },
+          "name": {
+            "label": "Tokyodude"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "4677080360"
+        },
+        "title": {
+          "label": "NYT should be English Only!!"
+        },
+        "content": {
+          "label": "This is an American Newspaper. I subscribed to read articles in English. Today there was an article written entirely in some other language (possibly Hindi? Not sure since I can’t read it). \n\nLeave the Hindi to the Indian papers and stick to English for NYT. I will not keep a subscription to a news site that reports in a language that I cannot read.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id21725592"
+          },
+          "name": {
+            "label": "MM9046"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4677037519"
+        },
+        "title": {
+          "label": "Auto play video ads are distracting"
+        },
+        "content": {
+          "label": "With auto play video ads, reading articles on this app is no longer enjoyable.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id615579526"
+          },
+          "name": {
+            "label": "gbaptista"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4677004013"
+        },
+        "title": {
+          "label": "Ads for viewing the content already paid"
+        },
+        "content": {
+          "label": "The app is populated by many ads and distracting videos while reading the headlines and the news. Why do I pay for a subscription if the NYT app is giving me distracting content??",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id22624794"
+          },
+          "name": {
+            "label": "Aka99aa"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "4674989044"
+        },
+        "title": {
+          "label": "Needs night mode"
+        },
+        "content": {
+          "label": "The app is great except that it is blinding in the dark.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id29563021"
+          },
+          "name": {
+            "label": "reneepren"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4672548224"
+        },
+        "title": {
+          "label": "New update makes app quit on my iPad"
+        },
+        "content": {
+          "label": "The new version makes the app quit and failed to open on my iPad even after I deleted and reinstalled this morning.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id621557714"
+          },
+          "name": {
+            "label": "NYT lover but app hater"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "9.4.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "4672327114"
+        },
+        "title": {
+          "label": "App is slow, crashes, doesn’t update"
+        },
+        "content": {
+          "label": "I love the NYT, but the app is the worst one I use. It took me several tries to get it to update from yesterday’s edition to today’s. This happens almost every day. Also, it regularly crashed and sometimes even freezes my iPad. I keep the app updated, so that’s not the problem. I tried communicating with them and got a return message that they would respond soon, but they never did. And by the way, such issues never occur with the Washington Post app. I wish they would clean this up!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=284862083&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "1"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "1"
+        }
+      }
+    ],
+    "updated": {
+      "label": "2019-09-06T07:36:26-07:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store: Customer Reviews"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=1"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "first",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "last",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=10/id=284862083/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "previous",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "next",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=2/id=284862083/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=284862083/sortby=mostRecent/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=284862083/sortby=mostRecent/json"
+    }
+  }
+}
