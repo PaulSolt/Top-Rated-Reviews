@@ -19,7 +19,7 @@
 		BD1A269F23240E74005E697F /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A269E23240E74005E697F /* StarRating.swift */; };
 		BD1A26A123241123005E697F /* ReviewStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A26A023241123005E697F /* ReviewStats.swift */; };
 		BD1A26A32324115B005E697F /* AppReviewURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A26A22324115B005E697F /* AppReviewURL.swift */; };
-		BD6CA1EB231F439700C79B21 /* OLDReviewFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6CA1EA231F439700C79B21 /* OLDReviewFetcher.swift */; };
+		BD63C8E923256415008F888F /* AppReviewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD63C8E823256415008F888F /* AppReviewStore.swift */; };
 		BDA57152231D478900017643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57151231D478900017643 /* AppDelegate.swift */; };
 		BDA57154231D478900017643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57153231D478900017643 /* SceneDelegate.swift */; };
 		BDA57156231D478900017643 /* StarRatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57155231D478900017643 /* StarRatingsView.swift */; };
@@ -41,8 +41,8 @@
 		BD1A269E23240E74005E697F /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
 		BD1A26A023241123005E697F /* ReviewStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStats.swift; sourceTree = "<group>"; };
 		BD1A26A22324115B005E697F /* AppReviewURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewURL.swift; sourceTree = "<group>"; };
-		BD6CA1EA231F439700C79B21 /* OLDReviewFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLDReviewFetcher.swift; sourceTree = "<group>"; };
-		BDA5714E231D478900017643 /* TopRatedReviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopRatedReviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD63C8E823256415008F888F /* AppReviewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewStore.swift; sourceTree = "<group>"; };
+		BDA5714E231D478900017643 /* TopRatedReviewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopRatedReviewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA57151231D478900017643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA57153231D478900017643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BDA57155231D478900017643 /* StarRatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingsView.swift; sourceTree = "<group>"; };
@@ -66,7 +66,6 @@
 		BD1450512324AEA30025DAD9 /* TestData */ = {
 			isa = PBXGroup;
 			children = (
-				BD6CA1EA231F439700C79B21 /* OLDReviewFetcher.swift */,
 				BD14504D2324AEA00025DAD9 /* MostHelpful.json */,
 				BD14504E2324AEA00025DAD9 /* MostRecent.json */,
 			);
@@ -77,10 +76,11 @@
 			isa = PBXGroup;
 			children = (
 				BD1A269C23240E08005E697F /* Review.swift */,
+				BD63C8E823256415008F888F /* AppReviewStore.swift */,
+				BD145047232477AB0025DAD9 /* AppReviewService.swift */,
 				BD1A269A23240144005E697F /* AppVersion.swift */,
 				BD1A26A22324115B005E697F /* AppReviewURL.swift */,
 				BD1A26A023241123005E697F /* ReviewStats.swift */,
-				BD145047232477AB0025DAD9 /* AppReviewService.swift */,
 				BD14504B2324AE6D0025DAD9 /* AppReviewLoader.swift */,
 				BD1450522324B5680025DAD9 /* String+Version.swift */,
 			);
@@ -98,7 +98,7 @@
 		BDA5714F231D478900017643 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDA5714E231D478900017643 /* TopRatedReviews.app */,
+				BDA5714E231D478900017643 /* TopRatedReviewsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDA5714D231D478900017643 /* TopRatedReviews */ = {
+		BDA5714D231D478900017643 /* TopRatedReviewsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDA57162231D478B00017643 /* Build configuration list for PBXNativeTarget "TopRatedReviews" */;
+			buildConfigurationList = BDA57162231D478B00017643 /* Build configuration list for PBXNativeTarget "TopRatedReviewsDemo" */;
 			buildPhases = (
 				BDA5714A231D478900017643 /* Sources */,
 				BDA5714B231D478900017643 /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = TopRatedReviews;
+			name = TopRatedReviewsDemo;
 			productName = TopRatedReviews;
-			productReference = BDA5714E231D478900017643 /* TopRatedReviews.app */;
+			productReference = BDA5714E231D478900017643 /* TopRatedReviewsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDA57149231D478900017643 /* Build configuration list for PBXProject "TopRatedReviews" */;
+			buildConfigurationList = BDA57149231D478900017643 /* Build configuration list for PBXProject "TopRatedReviewsDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDA5714D231D478900017643 /* TopRatedReviews */,
+				BDA5714D231D478900017643 /* TopRatedReviewsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +206,7 @@
 				BDA57152231D478900017643 /* AppDelegate.swift in Sources */,
 				BD145048232477AB0025DAD9 /* AppReviewService.swift in Sources */,
 				BD1A269D23240E08005E697F /* Review.swift in Sources */,
+				BD63C8E923256415008F888F /* AppReviewStore.swift in Sources */,
 				BD1A269F23240E74005E697F /* StarRating.swift in Sources */,
 				BD1A269B23240144005E697F /* AppVersion.swift in Sources */,
 				BD19B248231DCC1600A898A7 /* ReviewRow.swift in Sources */,
@@ -215,7 +216,6 @@
 				BDA57156231D478900017643 /* StarRatingsView.swift in Sources */,
 				BD14504C2324AE6D0025DAD9 /* AppReviewLoader.swift in Sources */,
 				BD1450532324B5680025DAD9 /* String+Version.swift in Sources */,
-				BD6CA1EB231F439700C79B21 /* OLDReviewFetcher.swift in Sources */,
 				BD1A26A123241123005E697F /* ReviewStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDA57149231D478900017643 /* Build configuration list for PBXProject "TopRatedReviews" */ = {
+		BDA57149231D478900017643 /* Build configuration list for PBXProject "TopRatedReviewsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDA57160231D478B00017643 /* Debug */,
@@ -400,7 +400,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDA57162231D478B00017643 /* Build configuration list for PBXNativeTarget "TopRatedReviews" */ = {
+		BDA57162231D478B00017643 /* Build configuration list for PBXNativeTarget "TopRatedReviewsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDA57163231D478B00017643 /* Debug */,
