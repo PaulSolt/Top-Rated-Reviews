@@ -1,5 +1,5 @@
 //
-//  StarRatings.swift
+//  StarRatingsView.swift
 //  TopRatedReviews
 //
 //  Created by Paul Solt on 9/2/19.

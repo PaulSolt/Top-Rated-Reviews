@@ -19,10 +19,10 @@
 		BD1A269F23240E74005E697F /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A269E23240E74005E697F /* StarRating.swift */; };
 		BD1A26A123241123005E697F /* ReviewStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A26A023241123005E697F /* ReviewStats.swift */; };
 		BD1A26A32324115B005E697F /* AppReviewURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A26A22324115B005E697F /* AppReviewURL.swift */; };
-		BD6CA1EB231F439700C79B21 /* ReviewFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6CA1EA231F439700C79B21 /* ReviewFetcher.swift */; };
+		BD6CA1EB231F439700C79B21 /* OLDReviewFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6CA1EA231F439700C79B21 /* OLDReviewFetcher.swift */; };
 		BDA57152231D478900017643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57151231D478900017643 /* AppDelegate.swift */; };
 		BDA57154231D478900017643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57153231D478900017643 /* SceneDelegate.swift */; };
-		BDA57156231D478900017643 /* StarRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57155231D478900017643 /* StarRatings.swift */; };
+		BDA57156231D478900017643 /* StarRatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA57155231D478900017643 /* StarRatingsView.swift */; };
 		BDA57158231D478B00017643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA57157231D478B00017643 /* Assets.xcassets */; };
 		BDA5715B231D478B00017643 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA5715A231D478B00017643 /* Preview Assets.xcassets */; };
 		BDA5715E231D478B00017643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA5715C231D478B00017643 /* LaunchScreen.storyboard */; };
@@ -41,11 +41,11 @@
 		BD1A269E23240E74005E697F /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
 		BD1A26A023241123005E697F /* ReviewStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStats.swift; sourceTree = "<group>"; };
 		BD1A26A22324115B005E697F /* AppReviewURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewURL.swift; sourceTree = "<group>"; };
-		BD6CA1EA231F439700C79B21 /* ReviewFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewFetcher.swift; sourceTree = "<group>"; };
+		BD6CA1EA231F439700C79B21 /* OLDReviewFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLDReviewFetcher.swift; sourceTree = "<group>"; };
 		BDA5714E231D478900017643 /* TopRatedReviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopRatedReviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA57151231D478900017643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA57153231D478900017643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDA57155231D478900017643 /* StarRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatings.swift; sourceTree = "<group>"; };
+		BDA57155231D478900017643 /* StarRatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingsView.swift; sourceTree = "<group>"; };
 		BDA57157231D478B00017643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA5715A231D478B00017643 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDA5715D231D478B00017643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +66,7 @@
 		BD1450512324AEA30025DAD9 /* TestData */ = {
 			isa = PBXGroup;
 			children = (
+				BD6CA1EA231F439700C79B21 /* OLDReviewFetcher.swift */,
 				BD14504D2324AEA00025DAD9 /* MostHelpful.json */,
 				BD14504E2324AEA00025DAD9 /* MostRecent.json */,
 			);
@@ -107,10 +108,9 @@
 			children = (
 				BDA57151231D478900017643 /* AppDelegate.swift */,
 				BDA57153231D478900017643 /* SceneDelegate.swift */,
-				BD6CA1EA231F439700C79B21 /* ReviewFetcher.swift */,
 				BD19B247231DCC1600A898A7 /* ReviewRow.swift */,
 				BD1A269E23240E74005E697F /* StarRating.swift */,
-				BDA57155231D478900017643 /* StarRatings.swift */,
+				BDA57155231D478900017643 /* StarRatingsView.swift */,
 				BD1A26992323FEEF005E697F /* Reviews */,
 				BD19B249231DDDBF00A898A7 /* ReviewList.swift */,
 				BD1450512324AEA30025DAD9 /* TestData */,
@@ -212,10 +212,10 @@
 				BDA57154231D478900017643 /* SceneDelegate.swift in Sources */,
 				BD19B24A231DDDBF00A898A7 /* ReviewList.swift in Sources */,
 				BD1A26A32324115B005E697F /* AppReviewURL.swift in Sources */,
-				BDA57156231D478900017643 /* StarRatings.swift in Sources */,
+				BDA57156231D478900017643 /* StarRatingsView.swift in Sources */,
 				BD14504C2324AE6D0025DAD9 /* AppReviewLoader.swift in Sources */,
 				BD1450532324B5680025DAD9 /* String+Version.swift in Sources */,
-				BD6CA1EB231F439700C79B21 /* ReviewFetcher.swift in Sources */,
+				BD6CA1EB231F439700C79B21 /* OLDReviewFetcher.swift in Sources */,
 				BD1A26A123241123005E697F /* ReviewStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -44,8 +44,6 @@ class AppReviewService {
     private let session: URLSession
     private let decoder: JSONDecoder
     
-    
-    
     // Error with too many requests
     static let pageDepthLimitMessage = "CustomerReviews RSS page depth is limited to"
 
