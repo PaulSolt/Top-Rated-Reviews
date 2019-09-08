@@ -48,7 +48,7 @@ struct AppReviewURL: Equatable {
         return "https://itunes.apple.com/us/rss/customerreviews/page=\(page)/id=\(id)/sortby=\(ordering)/json"
     }
     
-    var url: URL {
-        return URL(string: path)!
+    var url: URL? {
+        return URL(string: path)
     }
 }

@@ -69,19 +69,32 @@ struct ReviewStats: CustomStringConvertible {
     
     
     var description: String {
-        let versionOutput = appVersions.map { (appVersion) -> String in
-            return "\(appVersion)"
-        }.joined()
+
         
         let output =
                 "\t\(positiveReviewers) / \(reviewCount) positive reviewers (>=\(Review.positiveReview) stars)\n" +
                 "\t\(negativeReviewers) / \(reviewCount) negative reviewers (<=\(Review.negativeReview) stars)\n" +
                 "\t\(helpfulReviews) / \(reviewCount) helpful reviews\n" +
                 "\t\(qualityReviews) / \(reviewCount) quality reviews with \(Review.qualityReviewCharacterCount) characters\n" +
-                versionOutput
+                currentVersionOutput
+                
         return output
     }
     
+    var versionsOutput: String {
+        let versionOutput = appVersions.map { (appVersion) -> String in
+            return "\(appVersion)"
+        }.joined()
+        return versionOutput
+    }
+    
+    var currentVersionOutput: String {
+        if let appVersion = currentAppVersion() {
+            return "\(appVersion)"
+        } else {
+            return "Missing current version"
+        }
+    }
     
     // TODO: Move into AppVersion class
 
@@ -116,5 +129,9 @@ struct ReviewStats: CustomStringConvertible {
         return appVersions.sorted { (a1, a2) -> Bool in
             a1.version.rawVersion.isVersion(lessThanOrEqualTo: a2.version.rawVersion)
         }
+    }
+    
+    func currentAppVersion() -> AppVersion? {
+        return sortedAppVersions().last
     }
 }

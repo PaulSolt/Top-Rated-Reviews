@@ -23,6 +23,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        let contentView = Review()
         let contentView = StarRatingsView()
 //        let contentView = ReviewList()
+        
+        let service = AppReviewService()
+        let store = AppReviewStore(service: service)
+        store.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
+    
+        
+        var appURL = AppReviewURL(appId: "284862083", ordering: .mostRecent) // NY Times
+        //var appURL = AppURL(appId: "393135008", ordering: .mostRecent) // Artwork Evolution
+
+        guard let url = URL(string: appURL.path) else { print("INVALID URL"); return }
+        URLSession.shared.dataTask(with: url) { (data, _, error) in
+            print("HI")
+        }.resume()
+        
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
