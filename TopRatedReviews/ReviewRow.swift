@@ -25,24 +25,8 @@ let reviewData = [ReviewTest(rating: 5, name: "Jonny Appleseed", title: "Used fo
 
 ]
 
-
-
-
-
 struct ReviewRow: View {
     var review: Review
-
-/*    var body: some View {
-//        GeometryReader { geometry in
-//            Label(text: self.$review.body)
-            Text(self.review.body)
-                .lineLimit(Int.max)
-//                .frame(width: geometry.size.width - 20)
-            
-            
-//        }
-
-    }*/
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -70,12 +54,15 @@ struct ReviewRow: View {
 
 
 // Line wrapping doesn't work well
-let review = Review(id: "1", author: Author(name: "Bob", uri: URL(string:"")!), versionReviewed: "3.4", rating: 4, title: "Is this working", body: "Yes it is!")
-
+let appReviewData = [Review(id: "1",
+                    author: Author(name: "Bob", uri: URL(string:"")!),
+                    versionReviewed: "3.4",
+                    rating: 4,
+                    title: "Is this working",
+                    body: "Yes it is!")]
 
 struct Review_Previews: PreviewProvider {
     static var previews: some View {
-//        ReviewRow(review: reviewData[0])
-        ReviewRow(review: review)
+        ReviewRow(review: appReviewData[0])
     }
 }

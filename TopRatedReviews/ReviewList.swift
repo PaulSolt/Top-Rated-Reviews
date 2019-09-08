@@ -36,6 +36,7 @@ class AppReviewStore: ObservableObject {
 }
 
 struct ReviewList: View {
+//    var reviews: [Review] = []  // Prototype
     @EnvironmentObject var reviewStore: AppReviewStore
     
     var body: some View {
@@ -56,12 +57,12 @@ struct ReviewList: View {
     
     private func fetch() {
         reviewStore.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
-        
     }
 }
 
 struct ReviewList_Previews: PreviewProvider {
     static var previews: some View {
+//        ReviewList(reviews: appReviewData) // prototype
         ReviewList()
             .environmentObject(
                 AppReviewStore(service: AppReviewService()

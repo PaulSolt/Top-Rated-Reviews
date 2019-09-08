@@ -13,16 +13,12 @@ import SwiftUI
 struct StarRow: View {
     var count: Int
     
-//    private var starWidth: CGFloat
-//    private var starHeight: CGFloat
-    
     var body: some View {
         HStack(alignment: .center, spacing: 0) {
             ForEach((1...count), id: \.self) { index in
                 
                 Image(systemName: "star.fill")
                     .resizable()          // Can't get them to align with resizable/trailing, they center...
-//                    .aspectRatio(1, contentMode: .fit)
                     .frame(width: 8, height: 8)
                     .foregroundColor(.red)
             }
@@ -33,6 +29,7 @@ struct StarRow: View {
 struct StarRatingsView: View {
     
     // TODO: Extract model
+
     var stars: [Int] = [100, 50, 3, 1, 3] {
         mutating didSet {
             calculateLengths()
@@ -82,7 +79,6 @@ struct StarRatingsView: View {
     private var lengths: [CGFloat] = []
     
     var body: some View {
-        
         HStack(alignment: .top) {
             VStack(alignment: .leading) {
                 Text(averageRatingFormatted)
