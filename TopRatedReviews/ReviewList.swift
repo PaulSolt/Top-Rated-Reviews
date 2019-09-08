@@ -35,7 +35,6 @@ class AppReviewStore: ObservableObject {
     }
 }
 
-
 struct ReviewList: View {
     @EnvironmentObject var reviewStore: AppReviewStore
     
@@ -43,13 +42,15 @@ struct ReviewList: View {
         NavigationView {
             
             VStack {
-                
                 List(reviewStore.reviews) { review in
                     ReviewRow(review: review)
                 }
             }.navigationBarTitle(Text("Reviews"))
         }.onAppear {
             self.fetch()
+            
+            // TODO: Show star rating
+            // TODO: update star rating
         }
     }
     
