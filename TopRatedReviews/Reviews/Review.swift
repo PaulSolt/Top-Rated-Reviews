@@ -9,7 +9,7 @@
 import Foundation
 
 /// App Review and rating from a customer
-struct Review: Decodable { // TODO:, Equatable {
+struct Review: Decodable, Identifiable { // TODO:, Equatable {
     let id: String
     let author: Author
     let versionReviewed: String
@@ -20,6 +20,17 @@ struct Review: Decodable { // TODO:, Equatable {
     let totalReviewVotes: Int    // total number of customers who voted on review being helpful (yes/no)
 
     var currentAppVersion: String? // Set after you find all versions
+    
+    init(id: String, author: Author, versionReviewed: String, rating: Int, title: String, body: String) {
+        self.id = id
+        self.author = author
+        self.versionReviewed = versionReviewed
+        self.rating = rating
+        self.title = title
+        self.body = body
+        self.helpfulReviewVotes = -1
+        self.totalReviewVotes = -1
+    }
     
     // Constants
     static let negativeReview = 2
@@ -115,6 +126,11 @@ struct ElementLabel: Decodable {
 struct Author: Decodable {
     let name: String
     let uri: URL
+    
+    init(name: String, uri: URL) {
+        self.name = name
+        self.uri = uri
+    }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: AuthorCodingKeys.self)

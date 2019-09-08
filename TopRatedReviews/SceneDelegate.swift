@@ -28,6 +28,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let store = AppReviewStore(service: service)
         store.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
     
+        // TODO: Add the EnvironmentObject
+        
         
         var appURL = AppReviewURL(appId: "284862083", ordering: .mostRecent) // NY Times
         //var appURL = AppURL(appId: "393135008", ordering: .mostRecent) // Artwork Evolution

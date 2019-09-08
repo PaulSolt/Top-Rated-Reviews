@@ -76,10 +76,10 @@
 		BD1A26992323FEEF005E697F /* Reviews */ = {
 			isa = PBXGroup;
 			children = (
+				BD1A269C23240E08005E697F /* Review.swift */,
 				BD1A269A23240144005E697F /* AppVersion.swift */,
 				BD1A26A22324115B005E697F /* AppReviewURL.swift */,
 				BD1A26A023241123005E697F /* ReviewStats.swift */,
-				BD1A269C23240E08005E697F /* Review.swift */,
 				BD145047232477AB0025DAD9 /* AppReviewService.swift */,
 				BD14504B2324AE6D0025DAD9 /* AppReviewLoader.swift */,
 				BD1450522324B5680025DAD9 /* String+Version.swift */,
@@ -109,10 +109,10 @@
 				BDA57151231D478900017643 /* AppDelegate.swift */,
 				BDA57153231D478900017643 /* SceneDelegate.swift */,
 				BD19B247231DCC1600A898A7 /* ReviewRow.swift */,
+				BD19B249231DDDBF00A898A7 /* ReviewList.swift */,
 				BD1A269E23240E74005E697F /* StarRating.swift */,
 				BDA57155231D478900017643 /* StarRatingsView.swift */,
 				BD1A26992323FEEF005E697F /* Reviews */,
-				BD19B249231DDDBF00A898A7 /* ReviewList.swift */,
 				BD1450512324AEA30025DAD9 /* TestData */,
 				BDA57157231D478B00017643 /* Assets.xcassets */,
 				BDA5715C231D478B00017643 /* LaunchScreen.storyboard */,
