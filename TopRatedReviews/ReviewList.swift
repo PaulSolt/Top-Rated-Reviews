@@ -38,17 +38,32 @@ class AppReviewStore: ObservableObject {
 
 struct ReviewList: View {
     @EnvironmentObject var reviewStore: AppReviewStore
-
     
     var body: some View {
-        List(reviewStore.reviews) { review in
-            ReviewRow(review: review)
+        NavigationView {
+            
+            VStack {
+                
+                List(reviewStore.reviews) { review in
+                    ReviewRow(review: review)
+                }
+            }.navigationBarTitle(Text("Reviews"))
+        }.onAppear {
+            self.fetch()
         }
+    }
+    
+    private func fetch() {
+        reviewStore.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
+        
     }
 }
 
 struct ReviewList_Previews: PreviewProvider {
     static var previews: some View {
         ReviewList()
+            .environmentObject(
+                AppReviewStore(service: AppReviewService()
+            ))
     }
 }

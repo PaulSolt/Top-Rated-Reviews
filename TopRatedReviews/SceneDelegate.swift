@@ -19,17 +19,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
-        // Create the SwiftUI view that provides the window contents.
-//        let contentView = Review()
-        let contentView = StarRatingsView()
-//        let contentView = ReviewList()
         
         let service = AppReviewService()
         let store = AppReviewStore(service: service)
         store.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
     
-        // TODO: Add the EnvironmentObject
+        // Create the SwiftUI view that provides the window contents.
+        //        let contentView = Review()
+        //        let contentView = StarRatingsView()
+        let contentView = ReviewList()
+            .environmentObject(store)
+
         
+        // TODO: Fix the previews with fake data
         
         var appURL = AppReviewURL(appId: "284862083", ordering: .mostRecent) // NY Times
         //var appURL = AppURL(appId: "393135008", ordering: .mostRecent) // Artwork Evolution
