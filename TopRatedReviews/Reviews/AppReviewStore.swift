@@ -19,7 +19,7 @@ class AppReviewStore: ObservableObject {
         self.service = service
     }
     
-    func fetchReviews(for appId: String, ordering: AppReviewURL.ReviewOrdering) {
+    func fetchReviews(for appId: String, ordering: ReviewOrdering) {
         
         let appURL = AppReviewURL(appId: appId, ordering: ordering)
         

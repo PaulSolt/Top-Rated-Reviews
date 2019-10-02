@@ -96,10 +96,7 @@ struct Review: Decodable, Identifiable { // TODO:, Equatable {
     /// default to false. You'll need to populate this field with highest version
     /// string from iterating over all versions in reviews
     var isLatestVersion: Bool {
-//        if let currentAppVersion = currentAppVersion {
             return versionReviewed == currentAppVersion
-//        }
-        return false
     }
     
     init(from decoder: Decoder) throws {

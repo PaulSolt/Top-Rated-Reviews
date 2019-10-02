@@ -19,10 +19,11 @@ struct ReviewRow: View {
                 .font(.caption)
             Text(self.review.title)
                 .font(.headline)
+                .lineLimit(Int.max)
             
             Text(self.review.body)
                 .font(.body)
-                .lineLimit(Int.max) // 10)
+                .lineLimit(Int.max)
                         
         }
         .padding()

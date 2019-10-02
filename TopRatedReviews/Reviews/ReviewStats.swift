@@ -102,7 +102,7 @@ struct ReviewStats: CustomStringConvertible {
     
     // TODO: Move into AppVersion class
 
-    func sortedVersions() -> [String] {
+    var sortedVersions: [String] {
         var versions = appVersions.map { $0.version }
         versions.removeAll() { $0 == AppVersion.allVersions }
 
@@ -114,8 +114,7 @@ struct ReviewStats: CustomStringConvertible {
 
     /// Sorts and returns latest version
     func currentVersion() -> String {
-        let versions = sortedVersions()
-        return versions.last ?? "" // FIXME: return optional?
+        return sortedVersions.last ?? "" // FIXME: return optional?
     }
 
     /// Used to set the currentVersion on the review data, so that the UI can show a flag if

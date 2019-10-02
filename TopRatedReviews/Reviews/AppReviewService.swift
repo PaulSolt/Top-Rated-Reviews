@@ -91,23 +91,11 @@ class AppReviewService {
             appURL = appURL.next
         }
         
-        print("Waiting")
         downloadGroup.notify(queue: DispatchQueue.main) {
-                    print("Finished downloading")
-                    print("allReviews.count: \(allReviews.count)")
-                    
-                    let stats = computeStats(allReviews: &allReviews)
-                    // TODO: Remove (put into UI)
-            //        print(stats)
-            //        print(stats.appVersions.count)
-            //        for version in stats.sortedAppVersions() {
-            //            print("\(version.version) rating: \(version.average)")
-            //        }
-                    
-                    completion(.success(allReviews)) // TODO: Move stats function
-
+            print("allReviews.count: \(allReviews.count)")
+            completion(.success(allReviews)) // TODO: Move stats function
+            
         }
-        
     }
 }
 
@@ -121,18 +109,6 @@ enum AppReviewError: Error {
     case invalidResponse
 }
 
-func computeStats(allReviews: inout [Review]) -> ReviewStats {
-    
-    // TODO: remove duplicate reviews if duplciate pages requested
-    var stats = ReviewStats(reviews: allReviews)
-    print(stats)
-    // Update all reviews with latest version for stats / visualization in UI
-    let currentVersion = stats.currentVersion()
-    stats.updateCurrentVersion(reviews: &allReviews, currentVersion: currentVersion)
-    
-    
-    return stats
-}
 
 
 

@@ -8,15 +8,16 @@
 
 import Foundation
 
+enum ReviewOrdering: String {
+    case mostHelpful = "mosthelpful"
+    case mostRecent = "mostrecent"
+}
+
 /// Used to create URLs to request pages for an app id
 /// IMPORTANT:
 ///     - Current responses are limited to pages 1-10 pages (500 max reviews) for either search term
 ///     - You can get close to 1000 reviews by combining both review orderings and removing duplicates
 struct AppReviewURL: Equatable {
-    enum ReviewOrdering: String {
-        case mostHelpful = "mosthelpful"
-        case mostRecent = "mostrecent"
-    }
     
     let id: String
     let page: Int
