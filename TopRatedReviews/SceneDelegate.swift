@@ -22,10 +22,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let service = AppReviewService()
         let store = AppReviewStore(service: service)
-        store.fetchReviews(for: "284862083", ordering: .mostHelpful) // NYTimes
+        store.fetchReviews(for: "284862083", ordering: .mostRecent) // NYTimes
     
         // Create the SwiftUI view that provides the window contents.
-        //        let contentView = Review()
+//        let contentView = ReviewRow(review: appReviewTestData[0])
         //        let contentView = StarRatingsView()
         let contentView = ReviewList()
             .environmentObject(store)

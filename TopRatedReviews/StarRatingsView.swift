@@ -30,36 +30,56 @@ struct StarRatingsView: View {
     
     // TODO: Extract model
 
-    var stars: [Int] = [100, 50, 3, 1, 3] {
+    var appVersion: AppVersion {
         mutating didSet {
-            calculateLengths()
+//            if appVersion != nil {
+            print("calculate app Versions set")
+                calculateLengths()
+//            }
         }
     }
+    
+//    private var stars: [Int] = [100, 50, 3, 1, 3] {
+//        mutating didSet {
+//            calculateLengths()
+//        }
+//    }
     
     private var size: CGSize = CGSize(width: 8, height: 8)
     
     private var averageRating: Double = 5
     
-    init() {
+    init(appVersion: AppVersion) {
+        self.appVersion = appVersion
         calculateLengths()
     }
     
     private var totalStars = 0
 
-    
     private mutating func calculateLengths() {
-        totalStars = stars.reduce(0, +)
+        print("Star view: \(appVersion)")
+        totalStars = appVersion.totalRatings
+//        totalStars = stars.reduce(0, +)
+        guard totalStars > 0 else {
+            lengths = [0, 0, 0, 0, 0]
+            averageRating = 0
+            return
+        }
+        // TODO: support more than 5 stars
         
         lengths = []
         for i in 0..<5 {
-            let rating: CGFloat = CGFloat(stars[i]) / CGFloat(totalStars)
+            print("stars[\(i)]: \(appVersion.stars[i])")
+            let rating: CGFloat = CGFloat(appVersion.stars[i]) / CGFloat(totalStars)
             lengths.append(rating)
         }
         
+        print("Lengths: \(lengths)")
+        print("Total stars: \(totalStars)")
         averageRating = 0.0
         for i in 0..<5 {
             //            let rating = stars[i]
-            averageRating += (Double(stars[i]) * Double(5 - i))
+            averageRating += (Double(appVersion.stars[i]) * Double(5 - i))
         }
         averageRating /= Double(totalStars)
     }
@@ -95,7 +115,7 @@ struct StarRatingsView: View {
             
             VStack(alignment: .trailing, spacing: 4) {
                 VStack(alignment: .leading, spacing: 2) {
-                    ForEach((0..<5), id: \.self) { index in
+                    ForEach((0..<5), id: \.self) { index in // TODO: support more than 5 stars (use lengths?)
                         HStack {
                             ZStack(alignment: .leading) {
                                 Rectangle()
@@ -121,10 +141,13 @@ struct StarRatingsView: View {
     }
 }
 
+
+let appVersionTestData = AppVersion(reviews: appReviewTestData, version: "2.0.1")
+
 struct StarRatings_Previews: PreviewProvider {
     static var previews: some View {
         
-        StarRatingsView() // stars: [100, 34, 3, 4, 2])
+        StarRatingsView(appVersion: appVersionTestData) // stars: [100, 34, 3, 4, 2])
         //        StarRatings(
         //        StarRatings(stars: [100, 34, 3, 3, 5])
         //        .environmentObject([])

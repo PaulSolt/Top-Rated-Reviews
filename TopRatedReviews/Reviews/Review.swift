@@ -19,7 +19,7 @@ struct Review: Decodable, Identifiable { // TODO:, Equatable {
     let helpfulReviewVotes: Int  // number of customers who found review helpful
     let totalReviewVotes: Int    // total number of customers who voted on review being helpful (yes/no)
 
-    var currentAppVersion: String? // Set after you find all versions
+    var currentAppVersion: String // Set after you find all versions
     
     init(id: String, author: Author, versionReviewed: String, rating: Int, title: String, body: String) {
         self.id = id
@@ -30,6 +30,7 @@ struct Review: Decodable, Identifiable { // TODO:, Equatable {
         self.body = body
         self.helpfulReviewVotes = -1
         self.totalReviewVotes = -1
+        self.currentAppVersion = ""
     }
     
     // Constants
@@ -95,9 +96,9 @@ struct Review: Decodable, Identifiable { // TODO:, Equatable {
     /// default to false. You'll need to populate this field with highest version
     /// string from iterating over all versions in reviews
     var isLatestVersion: Bool {
-        if let currentAppVersion = currentAppVersion {
+//        if let currentAppVersion = currentAppVersion {
             return versionReviewed == currentAppVersion
-        }
+//        }
         return false
     }
     
@@ -114,7 +115,8 @@ struct Review: Decodable, Identifiable { // TODO:, Equatable {
         totalReviewVotes = Int(try container.decode(ElementLabel.self, forKey: .totalReviewVotes).label)!
         
         // NOTE: Must set after pulling in all reviews available
-        currentAppVersion = nil
+//        currentAppVersion = nil
+        currentAppVersion = ""
     }
     
 }

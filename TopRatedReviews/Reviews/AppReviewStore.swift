@@ -11,6 +11,7 @@ import Combine
 
 class AppReviewStore: ObservableObject {
     @Published private(set) var reviews: [Review] = []
+    @Published var stats: ReviewStats = ReviewStats(reviews: [])
     
     private let service: AppReviewService
     
@@ -27,6 +28,7 @@ class AppReviewStore: ObservableObject {
                 switch result {
                 case .success(let reviews):
                     self.reviews = reviews
+                    self.stats = ReviewStats(reviews: reviews)
                 case .failure(let error):
                     print("Error fetching reviews: \(error)")
                     self.reviews = []

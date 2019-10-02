@@ -16,6 +16,7 @@ class AppReviewService {
     
     // Error with too many requests
     static let pageDepthLimitMessage = "CustomerReviews RSS page depth is limited to"
+    static let maxPageCount = 1 // 10
     
     
     init(session: URLSession = .shared, decoder: JSONDecoder = .init()) {
@@ -35,7 +36,7 @@ class AppReviewService {
         print("URL: \(url)")
         // NOTE: only request pages 1...10 (more is not supported)
         let downloadGroup = DispatchGroup()
-        for _ in 1...10 {
+        for _ in 1...AppReviewService.maxPageCount {
             
             downloadGroup.enter()
             // request data

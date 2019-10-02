@@ -18,6 +18,7 @@ struct AppVersion: CustomStringConvertible {
     var average: Double = 0
     var totalRatings: Int = 0
     var reviews: [Review] = []
+    var stars: [Int] = []
     
     // Constants
     static let allVersions = "All Versions"
@@ -36,6 +37,7 @@ struct AppVersion: CustomStringConvertible {
         average = 0.0
         totalRatings = 0
         reviews = []
+        stars = []
     }
     
     func isCurrentVersion(_ review: Review) -> Bool {
@@ -53,6 +55,7 @@ struct AppVersion: CustomStringConvertible {
             if isCurrentVersion(review) || isAllVersions() {
                 self.reviews.append(review)
                 
+                //TODO: Make this variable number of stars?
                 if review.rating == 1 {
                     oneStar += 1
                 }
@@ -73,6 +76,7 @@ struct AppVersion: CustomStringConvertible {
             }
         }
         average = Double(ratingsSum) / Double(totalRatings)
+        stars = [oneStar, twoStars, threeStars, fourStars, fiveStars]
     }
     
     var description: String {

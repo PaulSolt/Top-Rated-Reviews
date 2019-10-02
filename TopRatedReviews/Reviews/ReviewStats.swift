@@ -15,6 +15,7 @@ struct ReviewStats: CustomStringConvertible {
     var helpfulReviews: Int = 0
     var reviewCount: Int = 0
     var appVersions: [AppVersion] = []
+    var allVersions: AppVersion = AppVersion(reviews: [], version: AppVersion.allVersions)
     
     init(reviews: [Review]) {
         updateStats(reviews: reviews)
@@ -27,6 +28,7 @@ struct ReviewStats: CustomStringConvertible {
         helpfulReviews = 0
         reviewCount = 0
         appVersions = []
+        allVersions = AppVersion(reviews: [], version: AppVersion.allVersions)
     }
     
     mutating func updateStats(reviews: [Review]) {
@@ -49,14 +51,18 @@ struct ReviewStats: CustomStringConvertible {
 
             incrementVersion(review.versionReviewed, versions: &versions)
             incrementVersion(AppVersion.allVersions, versions: &versions)
-            
         }
         reviewCount = reviews.count
         
         versions.forEach { (version: String, count: Int) in
-            let appVersion = AppVersion(reviews: reviews, version: version)
-            appVersions.append(appVersion)
+            if version == AppVersion.allVersions {
+                allVersions = AppVersion(reviews: reviews, version: version)
+            } else {
+                let appVersion = AppVersion(reviews: reviews, version: version)
+                appVersions.append(appVersion)
+            }
         }
+        
     }
     
     private func incrementVersion(_ version: String, versions: inout [String : Int]) {
@@ -67,9 +73,7 @@ struct ReviewStats: CustomStringConvertible {
         }
     }
     
-    
     var description: String {
-
         
         let output =
                 "\t\(positiveReviewers) / \(reviewCount) positive reviewers (>=\(Review.positiveReview) stars)\n" +
@@ -89,7 +93,7 @@ struct ReviewStats: CustomStringConvertible {
     }
     
     var currentVersionOutput: String {
-        if let appVersion = currentAppVersion() {
+        if let appVersion = currentAppVersion {
             return "\(appVersion)"
         } else {
             return "Missing current version"
@@ -131,7 +135,7 @@ struct ReviewStats: CustomStringConvertible {
         }
     }
     
-    func currentAppVersion() -> AppVersion? {
+    var currentAppVersion: AppVersion? {
         return sortedAppVersions().last
     }
 }
