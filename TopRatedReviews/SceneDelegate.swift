@@ -13,8 +13,9 @@ import SwiftUI
 
 let appId = "284862083" // NYTimes
 //let appId = "393135008" // Artwork Evolution
-let ordering: ReviewOrdering = .mostRecent
+let ordering: ReviewOrdering = .mostHelpful //.mostRecent
 
+// TODO: it should grab both sets of reviews for most helpful / most recent so the user can toggle between
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
