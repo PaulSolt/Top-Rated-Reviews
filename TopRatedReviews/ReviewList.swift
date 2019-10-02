@@ -85,14 +85,8 @@ struct ReviewList: View {
             }
             
         }.onAppear {
-            print("Fetch Reviews")
-            self.fetch()
+            // Set up logic here
         }
-    }
-    
-    private func fetch() {
-        
-//        reviewStore.fetchReviews(for: appId, ordering: ordering) // NYTimes
     }
 }
 

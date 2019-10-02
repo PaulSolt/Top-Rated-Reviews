@@ -45,7 +45,6 @@ struct StarRatingsView: View {
     private var totalStars = 0
 
     private mutating func calculateLengths() {
-        print("Star view: \(appVersion)")
         totalStars = appVersion.totalRatings
         guard totalStars > 0 else {
             lengths = [0, 0, 0, 0, 0]

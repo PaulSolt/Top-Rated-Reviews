@@ -39,15 +39,12 @@ class AppReviewService {
         for _ in 1...AppReviewService.maxPageCount {
             
             downloadGroup.enter()
-            // request data
             guard let url = appURL.url else {
                 print("Error: AppURL is invalid: \(appURL)")
                 return
             }
-            print(url)
             
             let task = URLSession.shared.dataTask(with: url) { (data, _, error) in
-                print("Started")
                 defer {
                     downloadGroup.leave()
                 }
@@ -59,11 +56,8 @@ class AppReviewService {
                 }
                 
                 do {
-                    //                        let decoder = JSONDecoder()
                     let results = try self.decoder.decode(ReviewResults.self, from: data)
                     let reviews = results.appReview.reviews
-                    print("Downloaded: \(reviews.count) reviews")
-                    
                     DispatchQueue.main.async {
                         allReviews.append(contentsOf: reviews)
                         completion(.success(allReviews))
