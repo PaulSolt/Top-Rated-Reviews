@@ -9,40 +9,27 @@
 import UIKit
 import SwiftUI
 
+// TODO: Change based on your App ID on the App Store
+
+let appId = "284862083" // NYTimes
+//let appId = "393135008" // Artwork Evolution
+let ordering: ReviewOrdering = .mostRecent
+
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-
         
         let service = AppReviewService()
         let store = AppReviewStore(service: service)
-        store.fetchReviews(for: "284862083", ordering: .mostRecent) // NYTimes
+        store.fetchReviews(for: appId, ordering: ordering)
     
-        // Create the SwiftUI view that provides the window contents.
-//        let contentView = ReviewRow(review: appReviewTestData[0])
-        //        let contentView = StarRatingsView()
         let contentView = ReviewList()
             .environmentObject(store)
 
-        
-        // TODO: Fix the previews with fake data
-        
-        var appURL = AppReviewURL(appId: "284862083", ordering: .mostRecent) // NY Times
-        //var appURL = AppURL(appId: "393135008", ordering: .mostRecent) // Artwork Evolution
-
-        guard let url = URL(string: appURL.path) else { print("INVALID URL"); return }
-        URLSession.shared.dataTask(with: url) { (data, _, error) in
-            print("HI")
-        }.resume()
-        
-
-        // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(rootView: contentView)

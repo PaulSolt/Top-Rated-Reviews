@@ -16,7 +16,7 @@ class AppReviewService {
     
     // Error with too many requests
     static let pageDepthLimitMessage = "CustomerReviews RSS page depth is limited to"
-    static let maxPageCount = 1 // 10
+    static let maxPageCount = 10
     
     
     init(session: URLSession = .shared, decoder: JSONDecoder = .init()) {

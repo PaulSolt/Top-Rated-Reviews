@@ -8,9 +8,6 @@
 
 import SwiftUI
 
-// TODO: Change based on your App ID on the App Store
-let appId = "284862083"
-let ordering: ReviewOrdering = .mostHelpful
 
 struct ReviewList: View {
     //    var reviews: [Review] = appReviewTestData  // Prototype
@@ -39,8 +36,8 @@ struct ReviewList: View {
                     }
                 }
                 .navigationBarTitle(Text("All Reviews"))
-
             }
+    
             .tabItem {
                 Text("All Versions")
             }
@@ -68,18 +65,19 @@ struct ReviewList: View {
             }
             
             NavigationView {
-                Text("DEMO")
-//                List(reviewStore.stats.versions, id: \.version) { version in
-//
-//                    VStack(alignment: .leading, spacing: 8) {
-//                        Text("Version: \(version.version)")
-//
-//                        StarRatingsView(appVersion: version)
-//                            .padding(.all, 8)
-//                        }
-//                }.padding(.all, 20)
-//                .navigationBarTitle(Text("App Health"))
-//
+                
+                List(reviewStore.stats.sortedAppVersions().reversed(), id: \.version) { version in
+
+                    VStack(alignment: .leading, spacing: 16) {
+                        Text("Version: \(version.version)")
+
+                        StarRatingsView(appVersion: version)
+                            .padding(.all, 8)
+                    }.padding()
+                }//.padding(.all, 20)
+                
+                .navigationBarTitle(Text("App Health"))
+
                 
 
             }.tabItem {
@@ -87,12 +85,14 @@ struct ReviewList: View {
             }
             
         }.onAppear {
+            print("Fetch Reviews")
             self.fetch()
         }
     }
     
     private func fetch() {
-        reviewStore.fetchReviews(for: appId, ordering: ordering) // NYTimes
+        
+//        reviewStore.fetchReviews(for: appId, ordering: ordering) // NYTimes
     }
 }
 

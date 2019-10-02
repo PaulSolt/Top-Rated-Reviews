@@ -28,25 +28,13 @@ struct StarRow: View {
 
 struct StarRatingsView: View {
     
-    // TODO: Extract model
-
     var appVersion: AppVersion {
         mutating didSet {
-//            if appVersion != nil {
-            print("calculate app Versions set")
-                calculateLengths()
-//            }
+            calculateLengths()
         }
     }
     
-//    private var stars: [Int] = [100, 50, 3, 1, 3] {
-//        mutating didSet {
-//            calculateLengths()
-//        }
-//    }
-    
     private var size: CGSize = CGSize(width: 8, height: 8)
-    
     private var averageRating: Double = 5
     
     init(appVersion: AppVersion) {
@@ -59,7 +47,6 @@ struct StarRatingsView: View {
     private mutating func calculateLengths() {
         print("Star view: \(appVersion)")
         totalStars = appVersion.totalRatings
-//        totalStars = stars.reduce(0, +)
         guard totalStars > 0 else {
             lengths = [0, 0, 0, 0, 0]
             averageRating = 0
@@ -69,16 +56,12 @@ struct StarRatingsView: View {
         
         lengths = []
         for i in 0..<5 {
-            print("stars[\(i)]: \(appVersion.stars[i])")
             let rating: CGFloat = CGFloat(appVersion.stars[i]) / CGFloat(totalStars)
             lengths.append(rating)
         }
         
-        print("Lengths: \(lengths)")
-        print("Total stars: \(totalStars)")
         averageRating = 0.0
         for i in 0..<5 {
-            //            let rating = stars[i]
             averageRating += (Double(appVersion.stars[i]) * Double(5 - i))
         }
         averageRating /= Double(totalStars)
@@ -147,9 +130,6 @@ let appVersionTestData = AppVersion(reviews: appReviewTestData, version: "2.0.1"
 struct StarRatings_Previews: PreviewProvider {
     static var previews: some View {
         
-        StarRatingsView(appVersion: appVersionTestData) // stars: [100, 34, 3, 4, 2])
-        //        StarRatings(
-        //        StarRatings(stars: [100, 34, 3, 3, 5])
-        //        .environmentObject([])
+        StarRatingsView(appVersion: appVersionTestData) 
     }
 }
