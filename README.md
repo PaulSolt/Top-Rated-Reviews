@@ -1,9 +1,12 @@
 # Top Rated App Store Reviews Demo (Combine and SwiftUI)
+
 Paul Solt
+
 Paul@SuperEasyApps.com
+
 https://SuperEasyApps.com
 
-This demo SwiftUI + Combine app was created for my [try! Swift New York 2019 Workshop: "Super Easy Combine"](https://www.tryswift.co/events/2019/nyc/#paulsolt)
+Top Rated demo SwiftUI + Combine app was created for my [try! Swift New York 2019 Workshop: "Super Easy Combine"](https://www.tryswift.co/events/2019/nyc/#paulsolt)
 
 It will pull down App Store reviews and visualizes the content in both a star rating widget (SwiftUI) and a list view for browsing.
 
